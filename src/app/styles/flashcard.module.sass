@@ -1,0 +1,122 @@
+.flashcardIntroContainer
+  height: 50vh
+  width: 100%
+  // display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: center
+  gap: 1rem
+
+  .flashcardIntroBtn
+    font-size: 3rem
+    outline: none
+    border: 0.5px white solid
+    padding: 1rem
+    border-radius: 15px
+    cursor: pointer
+    transition: 500ms ease background
+
+    &:hover
+      background: #444
+
+  .startBtn
+    padding: 1.5rem 10rem
+    font-size: 1.5rem
+    text-transform: uppercase
+    background: rgb(0,151,57)
+    outline: none
+    border: none
+    border-radius: 15px
+    margin-top: 2rem
+    cursor: pointer
+    transition: ease 500ms background
+
+    &:hover
+      background: #012169
+
+.flashcardContainer
+  height: 50vh
+  width: 100%
+  display: flex
+  align-items: center
+  justify-content: center
+
+  .flashcard
+    display: flex
+    flex-direction: column
+    max-width: 500px
+    width: 100%
+    height: 100%
+    position: relative
+
+    .top
+      height: 50%
+      width: 100%
+      display: flex
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      font-size: 1.5rem
+      gap: 0.5rem
+
+    .bottom
+      width: 100%
+      height: 50%
+      display: flex
+      flex-direction: column
+      flex-direction: column
+      align-items: center
+      justify-content: center
+      font-size: 1.5rem
+      gap: 0.5rem
+
+    .slider
+      position: absolute
+      top: 0
+      width: 100%
+      height: 50%
+      background: black
+      display: flex
+      align-items: center
+      justify-content: center
+      transition: 500ms ease transform
+
+      .sliderBtn
+        padding: 1rem 3rem
+        outline: none
+        border: none
+        border-radius: 10px
+        font-size: 1rem
+        text-transform: capitalize
+        cursor: pointer
+
+    .nextBtn
+      position: absolute
+      bottom: -6rem
+      padding: 1.5rem 0
+      width: 100%
+      font-size: 1rem
+      text-transform: uppercase
+      background: #222
+      outline: none
+      border: none
+      border-radius: 15px
+      cursor: pointer
+
+.selected
+  background: #444
+
+.notSelected
+  background: #222
+
+.showing
+  display: flex
+
+.notShowing
+  display: none
+
+.up
+  transform: translateY(0%)
+
+.down
+  transform: translateY(100%)
