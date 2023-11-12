@@ -4590,6 +4590,15 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
+      pt: 'bairro',
+      en: 'neighborhood',
+    },
+    topic: Topics.Places,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
       pt: 'norte',
       en: 'north',
     },
@@ -5382,6 +5391,86 @@ const vocabulary: vocab[] = [
     word: {
       pt: 'acabar',
       en: 'to finish, to complete',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'confiar',
+      en: 'to trust',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'acreditar',
+      en: 'to believe',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'morar',
+      en: 'to live, to reside',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'criar',
+      en: 'to create',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'nascer',
+      en: 'to be born',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'morrer',
+      en: 'to die',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'correr',
+      en: 'to run',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'caminhar',
+      en: 'to walk',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'concordar',
+      en: 'to agree',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'descreven',
+      en: 'to describe',
     },
     topic: Topics.Verbs,
   },
