@@ -5046,7 +5046,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'fazer',
-      en: 'to speak',
+      en: 'to do',
     },
     topic: Topics.Verbs,
   },
@@ -5469,10 +5469,168 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'descreven',
+      pt: 'descrever',
       en: 'to describe',
     },
     topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pagar',
+      en: 'to pay',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'escolher',
+      en: 'to choose',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sempre que',
+      en: 'whenever',
+    },
+    topic: Topics.Adverbs,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'comum',
+      en: 'common',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'Eu tenho que',
+      en: 'I have to',
+    },
+    topic: Topics.Salutations,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cedo',
+      en: 'early',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'tarde',
+      en: 'late',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'exercício',
+      en: 'exercise',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'castanho',
+      en: 'brown',
+    },
+    topic: Topics.Colors,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pelo menos',
+      en: 'at least',
+    },
+    topic: Topics.Conjunctions,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'dica',
+      en: 'tip',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'criadora',
+      en: 'creator',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'neste',
+      en: 'in this',
+    },
+    topic: Topics.Prepositions,
+    gender: Gender.Neutral,
+    contraction: 'em este',
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'seguir',
+      en: 'to follow',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'padrão',
+      en: 'pattern',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'entrar',
+      en: 'to enter',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'Único',
+      en: 'only, single',
+    },
+    topic: Topics.Adverbs,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'naturalmente',
+      en: 'naturally',
+    },
+    topic: Topics.Adverbs,
+    gender: Gender.Male,
   },
 ];
 
