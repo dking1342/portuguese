@@ -5632,6 +5632,141 @@ const vocabulary: vocab[] = [
     topic: Topics.Adverbs,
     gender: Gender.Male,
   },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'verão',
+      en: 'summer',
+    },
+    topic: Topics.Calendar,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'primavera',
+      en: 'spring',
+    },
+    topic: Topics.Calendar,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'outono',
+      en: 'autumn',
+    },
+    topic: Topics.Calendar,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'inverno',
+      en: 'winter',
+    },
+    topic: Topics.Calendar,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'bochecha',
+      en: 'cheek',
+    },
+    topic: Topics.Body,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'bumbum',
+      en: 'butt',
+    },
+    topic: Topics.Body,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'menino',
+      en: 'boy',
+    },
+    topic: Topics.Family,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'menina',
+      en: 'girl',
+    },
+    topic: Topics.Family,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cachorro',
+      en: 'dog',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'gato',
+      en: 'cat',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'tigre',
+      en: 'tiger',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'leão',
+      en: 'lion',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'coala',
+      en: 'koala',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cavalo',
+      en: 'horse',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pássaro',
+      en: 'bird',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
 ];
 
 export default vocabulary;
