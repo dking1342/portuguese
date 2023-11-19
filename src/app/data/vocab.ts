@@ -2221,6 +2221,60 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
+      pt: 'flor',
+      en: 'flower',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'plantar',
+      en: 'plant',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'árvore',
+      en: 'tree',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'rosa',
+      en: 'pink',
+    },
+    topic: Topics.Colors,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'doce',
+      en: 'sweet',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'amargo',
+      en: 'bitter',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
       pt: 'mesa',
       en: 'table',
     },
@@ -3674,6 +3728,33 @@ const vocabulary: vocab[] = [
       en: 'january',
     },
     topic: Topics.Calendar,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'janela',
+      en: 'window',
+    },
+    topic: Topics.House,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'bola',
+      en: 'ball',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'jogo',
+      en: 'game',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
   },
   {
     id: uuidv4(),
@@ -5765,6 +5846,63 @@ const vocabulary: vocab[] = [
       en: 'bird',
     },
     topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'conhecer',
+      en: 'to know',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'parar',
+      en: 'to stop',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'lamber',
+      en: 'to lick',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cozinhar',
+      en: 'to cook',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'digitar',
+      en: 'to type, to key (in)',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'esquecer',
+      en: 'to forget',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'espelho',
+      en: 'mirror',
+    },
+    topic: Topics.House,
     gender: Gender.Male,
   },
 ];
