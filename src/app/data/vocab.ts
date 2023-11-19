@@ -5905,6 +5905,48 @@ const vocabulary: vocab[] = [
     topic: Topics.House,
     gender: Gender.Male,
   },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'alimentar',
+      en: 'to feed',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'abraçar',
+      en: 'to hug, to hold',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'curto',
+      en: 'short',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'alto',
+      en: 'tall, high',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'conhecer',
+      en: 'to know (person, place)',
+    },
+    topic: Topics.Verbs,
+  },
 ];
 
 export default vocabulary;
