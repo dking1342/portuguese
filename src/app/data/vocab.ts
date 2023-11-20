@@ -979,7 +979,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'forma',
-      en: 'forma',
+      en: 'form',
     },
     topic: Topics.Noun,
     gender: Gender.Female,
@@ -1869,6 +1869,33 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
+      pt: 'bisavô',
+      en: 'great-grandfather',
+    },
+    topic: Topics.Family,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'bisavôs',
+      en: 'great-grandparents',
+    },
+    topic: Topics.Family,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'prato',
+      en: 'dish, plate',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
       pt: 'pai',
       en: 'father',
     },
@@ -2644,11 +2671,64 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'cara',
+      pt: 'rosto',
       en: 'face',
     },
     topic: Topics.Body,
     gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'frango',
+      en: 'chicken',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'seco',
+      en: 'dry',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'abacaxi',
+      en: 'pineapple',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'morango',
+      en: 'strawberry',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'framboesa',
+      en: 'raspberry',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cheirar',
+      en: 'to smell',
+    },
+    topic: Topics.Verbs,
   },
   {
     id: uuidv4(),
@@ -5970,6 +6050,51 @@ const vocabulary: vocab[] = [
       en: 'to fight',
     },
     topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'chapéu',
+      en: 'cowboy hat, gaucho hat',
+    },
+    topic: Topics.Clothes,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'filho',
+      en: 'son',
+    },
+    topic: Topics.Family,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'filha',
+      en: 'daughter',
+    },
+    topic: Topics.Family,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'filhos',
+      en: 'children',
+    },
+    topic: Topics.Family,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pais',
+      en: 'parents',
+    },
+    topic: Topics.Family,
+    gender: Gender.Male,
   },
 ];
 

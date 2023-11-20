@@ -2617,4 +2617,32 @@ export const verbList: verbListType[] = [
       thirdPlural: 'brigaram',
     },
   },
+  {
+    id: uuidv4(),
+    verbItem: {
+      verb: 'cheirar',
+      meaning: 'to smell',
+      tense: Tense.present,
+      type: Type.regular,
+      firstSingle: 'cheiro',
+      secondSingle: 'cheiras',
+      thirdSingle: 'cherira',
+      firstPlural: 'cheiramos',
+      thirdPlural: 'cheiram',
+    },
+  },
+  {
+    id: uuidv4(),
+    verbItem: {
+      verb: 'cheirar',
+      meaning: 'to smell',
+      tense: Tense.past,
+      type: Type.regular,
+      firstSingle: 'cheirei',
+      secondSingle: 'cheiraste',
+      thirdSingle: 'cherirou',
+      firstPlural: 'cheiramos',
+      thirdPlural: 'cheiraram',
+    },
+  },
 ];
