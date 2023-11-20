@@ -5851,14 +5851,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'conhecer',
-      en: 'to know',
-    },
-    topic: Topics.Verbs,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'parar',
       en: 'to stop',
     },
@@ -5944,6 +5936,38 @@ const vocabulary: vocab[] = [
     word: {
       pt: 'conhecer',
       en: 'to know (person, place)',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'chorar',
+      en: 'to cry',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'conseguir',
+      en: 'to get, to obtain',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'contar',
+      en: 'to tell',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'brigar',
+      en: 'to fight',
     },
     topic: Topics.Verbs,
   },
