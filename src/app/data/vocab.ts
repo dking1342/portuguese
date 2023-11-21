@@ -3406,7 +3406,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'desde',
-      en: 'from',
+      en: 'since, from',
     },
     topic: Topics.Prepositions,
     gender: Gender.Neutral,
@@ -6095,6 +6095,84 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Family,
     gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'explicar',
+      en: 'to explain',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'decidir',
+      en: 'to decide',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'versículo',
+      en: 'verse',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'capítulo',
+      en: 'chapter',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'portanto',
+      en: 'therefore',
+    },
+    topic: Topics.Conjunctions,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sem',
+      en: 'without',
+    },
+    topic: Topics.Conjunctions,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'rico',
+      en: 'rich',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pobre',
+      en: 'poor',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'ligar',
+      en: 'to connect',
+    },
+    topic: Topics.Verbs,
   },
 ];
 
