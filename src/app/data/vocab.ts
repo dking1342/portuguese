@@ -6199,6 +6199,216 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Verbs,
   },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'melhorar',
+      en: 'to improve',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'crescer',
+      en: 'to grow',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'increver',
+      en: 'to enroll, sign up',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'notificação',
+      en: 'notification',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'significado',
+      en: 'meaning',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'prestar atenção',
+      en: 'pay attention',
+    },
+    topic: Topics.Salutations,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'qualidade',
+      en: 'quality',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'quantidade',
+      en: 'quantity',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pode ser',
+      en: 'it can be',
+    },
+    topic: Topics.Salutations,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'Último',
+      en: 'last, latest',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'levantar',
+      en: 'to get up',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cair',
+      en: 'to fall',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sentar',
+      en: 'to sit',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'escutar',
+      en: 'to listen',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'interior',
+      en: 'inside, inner',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'fala sério',
+      en: 'seriously?',
+    },
+    topic: Topics.Salutations,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'rir',
+      en: 'to laugh',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pular',
+      en: 'to jump',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'abaixar',
+      en: 'to lower',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'vender',
+      en: 'to sell',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'o tempo todo',
+      en: 'all the time',
+    },
+    topic: Topics.Salutations,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'o dia todo',
+      en: 'all day',
+    },
+    topic: Topics.Salutations,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'regra',
+      en: 'rule',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'Ótimo',
+      en: 'great',
+    },
+    topic: Topics.Adverbs,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'engraçado',
+      en: 'funny',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
 ];
 
 export default vocabulary;
