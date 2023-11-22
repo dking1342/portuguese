@@ -1176,6 +1176,15 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
+      pt: 'calor',
+      en: 'heat',
+    },
+    topic: Topics.Weather,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
       pt: 'roupa',
       en: 'clothes',
     },
@@ -6171,6 +6180,22 @@ const vocabulary: vocab[] = [
     word: {
       pt: 'ligar',
       en: 'to connect',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'olhar',
+      en: 'to look at',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'esconder',
+      en: 'to hide',
     },
     topic: Topics.Verbs,
   },
