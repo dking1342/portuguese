@@ -6409,6 +6409,165 @@ const vocabulary: vocab[] = [
     topic: Topics.Adjectives,
     gender: Gender.Male,
   },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'data',
+      en: 'date',
+    },
+    topic: Topics.Calendar,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'ansiedade',
+      en: 'anxiety',
+    },
+    topic: Topics.Adverbs,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'inteiro',
+      en: 'entire, whole, full',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'culpa',
+      en: 'fault, guilt',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'feito',
+      en: 'done, made',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'arrumar',
+      en: 'to arrange, organize, tidy up',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'temporada',
+      en: 'season',
+    },
+    topic: Topics.Calendar,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'barato',
+      en: 'cheap',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'caro',
+      en: 'expensive',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'vontade',
+      en: 'will, desire',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'anterior',
+      en: 'previous',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'bancário',
+      en: 'banker',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'repetir',
+      en: 'to repeat',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'nunca',
+      en: 'never',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'caixa',
+      en: 'box',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'gastar',
+      en: 'to spend money',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'redes sociais',
+      en: 'social media',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'redes',
+      en: 'network',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
 ];
 
 export default vocabulary;
