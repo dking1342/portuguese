@@ -699,6 +699,96 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
+      pt: 'lição',
+      en: 'lesson',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'aula',
+      en: 'lesson, class',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'aluno',
+      en: 'student',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'estudante',
+      en: 'student',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pronomes',
+      en: 'pronouns',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'substantivo',
+      en: 'noun',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'verbo',
+      en: 'verb',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'caneta',
+      en: 'pen',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'papel',
+      en: 'paper',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cinza',
+      en: 'gray',
+    },
+    topic: Topics.Colors,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
       pt: 'alguém',
       en: 'somebody',
     },
@@ -6567,6 +6657,23 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Noun,
     gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'morder',
+      en: 'to bite',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'dica',
+      en: 'tip, hint',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
   },
 ];
 

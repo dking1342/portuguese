@@ -3149,4 +3149,32 @@ export const verbList: verbListType[] = [
       thirdPlural: 'gastaram',
     },
   },
+  {
+    id: uuidv4(),
+    verbItem: {
+      verb: 'morder',
+      meaning: 'to bite',
+      tense: Tense.present,
+      type: Type.regular,
+      firstSingle: 'mordo',
+      secondSingle: 'mordes',
+      thirdSingle: 'morde',
+      firstPlural: 'mordemos',
+      thirdPlural: 'mordem',
+    },
+  },
+  {
+    id: uuidv4(),
+    verbItem: {
+      verb: 'morder',
+      meaning: 'to bite',
+      tense: Tense.past,
+      type: Type.regular,
+      firstSingle: 'mordi',
+      secondSingle: 'mordeste',
+      thirdSingle: 'mordeu',
+      firstPlural: 'mordemos',
+      thirdPlural: 'morderam',
+    },
+  },
 ];
