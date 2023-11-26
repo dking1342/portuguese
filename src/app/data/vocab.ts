@@ -1869,6 +1869,15 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
+      pt: 'igual',
+      en: 'equal',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
       pt: 'enquanto',
       en: 'while',
     },
@@ -3855,6 +3864,33 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
+      pt: 'lento',
+      en: 'slow',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pequeno',
+      en: 'small',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'só',
+      en: 'only',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
       pt: 'segunda-feira',
       en: 'monday',
     },
@@ -5102,11 +5138,20 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'distante',
+      pt: 'distancia',
       en: 'distance',
     },
     topic: Topics.Places,
     gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'distante',
+      en: 'distant',
+    },
+    topic: Topics.Places,
+    gender: Gender.Female,
   },
   {
     id: uuidv4(),
@@ -6674,6 +6719,242 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Noun,
     gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'molhado',
+      en: 'wet, damp',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'nordeste',
+      en: 'northeast',
+    },
+    topic: Topics.Places,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'noroeste',
+      en: 'northwest',
+    },
+    topic: Topics.Places,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sudoeste',
+      en: 'southwest',
+    },
+    topic: Topics.Places,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sudeste',
+      en: 'southeast',
+    },
+    topic: Topics.Places,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'deitar',
+      en: 'to lay down',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'máquina',
+      en: 'machine',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cérebro',
+      en: 'brain',
+    },
+    topic: Topics.Body,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'manter',
+      en: 'to maintain',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'impossível',
+      en: 'impossible',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'doenças',
+      en: 'illnesses',
+    },
+    topic: Topics.Body,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'poderosa',
+      en: 'powerful',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'disponível',
+      en: 'available',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'vizinho',
+      en: 'neighbor',
+    },
+    topic: Topics.Family,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'tarefa',
+      en: 'task',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'provavelmente',
+      en: 'probably',
+    },
+    topic: Topics.Adverbs,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'motivo',
+      en: 'reason',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'equipe',
+      en: 'team',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'duplo',
+      en: 'double',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'habilidade',
+      en: 'skills, ability',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'descobrir',
+      en: 'to discover',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pena',
+      en: 'pity',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'adorar',
+      en: 'to adore',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'mandar',
+      en: 'to send',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'salvar',
+      en: 'to save',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'divertido',
+      en: 'fun',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'nadar',
+      en: 'to swim',
+    },
+    topic: Topics.Verbs,
   },
 ];
 
