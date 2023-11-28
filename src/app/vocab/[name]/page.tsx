@@ -62,7 +62,9 @@ const Practice = (props: Props) => {
 
   return (
     <div className={stylesHome.container}>
-      <h1>Practice: {params.name}</h1>
+      <h1>
+        Practice: <span className={styles.paramName}>{params.name}</span>
+      </h1>
       <div
         className={`${styles.flashcardIntroContainer} ${
           !showFlashcards ? styles.showing : styles.notShowing

@@ -7,6 +7,7 @@
   align-items: center
   padding: 1rem 3rem
   background: rgb(0,151,57)
+  z-index: 10
 
   .logoContainer
     width: 50px
@@ -57,6 +58,7 @@
         outline: none
         border: none
         cursor: pointer
+        background-color: #eee
 
         .menuIcon
           width: 100%
@@ -68,15 +70,18 @@
       z-index: 2
       height: 100vh
       width: 100vw
-      padding: 1rem 3rem
-      display: flex
-      justify-content: space-between
-      background: rgb(0,151,57)
+      padding-top: 1rem
+      display: grid
+      grid-template-columns: 150px 1fr 150px
+      grid-template-rows: 1fr
+      justify-items: center
+      background: rgba(0,151,57,0.95)
       transition: 750ms ease-in-out transform
 
       .menuCloseContainer
         height: 35px
         width: 35px
+        grid-column: 3/4
 
         .menuCloseBtn
           width: 100%
@@ -85,6 +90,7 @@
           outline: none
           border: none
           cursor: pointer
+          color: #eee
 
           .menuClose
             width: 100%
@@ -95,6 +101,11 @@
         flex-direction: column
         gap: 2rem
         list-style: none
+        padding-top: 4rem
+        width: 100%
+        align-items: center
+        grid-column: 2/3
+        grid-row: 1/2
 
         .navItem
 
