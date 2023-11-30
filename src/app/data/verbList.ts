@@ -1,6 +1,7 @@
 import { Twinkle_Star } from 'next/font/google';
-import { verbListType } from '../types';
+import { verbItemArray, verbListType } from '../types';
 import { v4 as uuidv4 } from 'uuid';
+import { MdUnpublished } from 'react-icons/md';
 
 enum Tense {
   present = 'present',
@@ -14,59 +15,112 @@ enum Type {
   irregular = 'irregular',
 }
 
+export const verbL: verbItemArray[] = [
+  {
+    id: uuidv4(),
+    verb: 'abrir',
+    meaning: 'to open',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'abro',
+          secondSingle: 'abres',
+          thirdSingle: 'abre',
+          firstPlural: 'abrimos',
+          thirdPlural: 'abrem',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'abri',
+          secondSingle: 'abriste',
+          thirdSingle: 'abriu',
+          firstPlural: 'abrimos',
+          thirdPlural: 'abriram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'abrirei',
+          secondSingle: 'abrirás',
+          thirdSingle: 'abrirá',
+          firstPlural: 'abriremos',
+          thirdPlural: 'abrirão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'abria',
+          secondSingle: 'abrias',
+          thirdSingle: 'abria',
+          firstPlural: 'abríamos',
+          thirdPlural: 'abriam',
+        },
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    verb: 'achar',
+    meaning: 'to find, to think',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'acho',
+          secondSingle: 'achas',
+          thirdSingle: 'acha',
+          firstPlural: 'achamos',
+          thirdPlural: 'acham',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'achei',
+          secondSingle: 'achaste',
+          thirdSingle: 'achou',
+          firstPlural: 'achamos',
+          thirdPlural: 'acharam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'acharei',
+          secondSingle: 'acharás',
+          thirdSingle: 'achará',
+          firstPlural: 'acharemos',
+          thirdPlural: 'acharão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'achava',
+          secondSingle: 'achavas',
+          thirdSingle: 'achava',
+          firstPlural: 'achávamos',
+          thirdPlural: 'achavam',
+        },
+      },
+    ],
+  },
+];
+
 export const verbList: verbListType[] = [
-  {
-    id: uuidv4(),
-    verbItem: {
-      verb: 'abrir',
-      meaning: 'to open',
-      tense: Tense.present,
-      firstSingle: 'abro',
-      secondSingle: 'abres',
-      thirdSingle: 'abre',
-      firstPlural: 'abrimos',
-      thirdPlural: 'abrem',
-    },
-  },
-  {
-    id: uuidv4(),
-    verbItem: {
-      verb: 'abrir',
-      meaning: 'to open',
-      tense: Tense.past,
-      firstSingle: 'abri',
-      secondSingle: 'abriste',
-      thirdSingle: 'abriu',
-      firstPlural: 'abrimos',
-      thirdPlural: 'abriram',
-    },
-  },
-  {
-    id: uuidv4(),
-    verbItem: {
-      verb: 'abrir',
-      meaning: 'to open',
-      tense: Tense.future,
-      firstSingle: 'abrirei',
-      secondSingle: 'abrirás',
-      thirdSingle: 'abrirá',
-      firstPlural: 'abriremos',
-      thirdPlural: 'abrirão',
-    },
-  },
-  {
-    id: uuidv4(),
-    verbItem: {
-      verb: 'abrir',
-      meaning: 'to open',
-      tense: Tense.imperfect,
-      firstSingle: 'abria',
-      secondSingle: 'abrias',
-      thirdSingle: 'abria',
-      firstPlural: 'abríamos',
-      thirdPlural: 'abriam',
-    },
-  },
   {
     id: uuidv4(),
     verbItem: {
@@ -282,7 +336,7 @@ export const verbList: verbListType[] = [
       meaning: 'to drink',
       tense: Tense.present,
       firstSingle: 'bebo',
-      secondSingle: '',
+      secondSingle: 'bebes',
       thirdSingle: 'bebe',
       firstPlural: 'bebemos',
       thirdPlural: 'bebem',
@@ -294,12 +348,24 @@ export const verbList: verbListType[] = [
       verb: 'beber',
       meaning: 'to drink',
       tense: Tense.past,
-      type: Type.regular,
       firstSingle: 'bebi',
       secondSingle: 'bebeste',
       thirdSingle: 'bebeu',
       firstPlural: 'bebemos',
       thirdPlural: 'beberam',
+    },
+  },
+  {
+    id: uuidv4(),
+    verbItem: {
+      verb: 'beber',
+      meaning: 'to drink',
+      tense: Tense.future,
+      firstSingle: 'beberei',
+      secondSingle: 'beberás',
+      thirdSingle: 'beberá',
+      firstPlural: 'beberemos',
+      thirdPlural: 'beberão',
     },
   },
   {

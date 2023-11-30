@@ -29,6 +29,34 @@ export type verbItemType = {
   thirdPlural: string;
 };
 
+export enum Tense {
+  present = 'present',
+  past = 'past',
+  future = 'future',
+  imperfect = 'imperfect',
+}
+
+export type TenseItemType = {
+  firstSingle: string;
+  secondSingle: string;
+  thirdSingle: string;
+  firstPlural: string;
+  thirdPlural: string;
+};
+
+export type TenseArray = {
+  id: string;
+  tense: Tense.past | Tense.future | Tense.present | Tense.imperfect;
+  group: TenseItemType;
+};
+
+export type verbItemArray = {
+  id: string;
+  verb: string;
+  meaning: string;
+  tenses: TenseArray[];
+};
+
 export type verbListType = {
   id: string;
   verbItem: verbItemType;
