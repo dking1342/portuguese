@@ -45,10 +45,6 @@ const VerbItem = ({ item }: Props) => {
             <p>{item.firstPlural}</p>
           </div>
           <div className={styles.row}>
-            <h3>Vós</h3>
-            <p>{item.secondPlural ? item.secondPlural : ''}</p>
-          </div>
-          <div className={styles.row}>
             <h3>Eles, Elas</h3>
             <p>{item.thirdPlural}</p>
           </div>

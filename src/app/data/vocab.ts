@@ -6956,6 +6956,14 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Verbs,
   },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'dever',
+      en: 'should, must do',
+    },
+    topic: Topics.Verbs,
+  },
 ];
 
 export default vocabulary;

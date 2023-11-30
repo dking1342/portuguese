@@ -21,12 +21,11 @@ export type verbItemType = {
   verb: string;
   meaning: string;
   tense: string;
-  type: string;
+  type?: string;
   firstSingle: string;
   secondSingle: string;
   thirdSingle: string;
   firstPlural: string;
-  secondPlural?: string;
   thirdPlural: string;
 };
 
