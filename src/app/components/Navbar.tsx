@@ -18,11 +18,11 @@ const navItems = [
     name: 'vocab',
     link: 'vocab',
   },
-  {
-    id: 3,
-    name: 'search',
-    link: '#',
-  },
+  // {
+  //   id: 3,
+  //   name: 'search',
+  //   link: '#',
+  // },
 ];
 const Navbar = (props: Props) => {
   const [mobileMenuState, setMobileMenuState] = useState(false);
