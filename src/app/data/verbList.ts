@@ -3056,21 +3056,6 @@ export const verbL: verbItemArray[] = [
 
 export const verbList: verbListType[] = [
   {
-    verbItem: {
-      tense: Tense.present,
-      type: Type.regular,
-    },
-  },
-  {
-    id: uuidv4(),
-    verbItem: {
-      verb: 'cantar',
-      meaning: 'to sing',
-      tense: Tense.past,
-      type: Type.regular,
-    },
-  },
-  {
     id: uuidv4(),
     verbItem: {
       verb: 'pegar',
