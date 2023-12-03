@@ -96,7 +96,7 @@ const VerbItem = ({ item }: Props) => {
               <p>{currentGroup.secondSingle}</p>
             </div>
             <div className={styles.row}>
-              <h3>Ele, Ela, Você</h3>
+              <h3>Ele</h3>
               <p>{currentGroup.thirdSingle}</p>
             </div>
             <div className={styles.row}>
@@ -104,7 +104,7 @@ const VerbItem = ({ item }: Props) => {
               <p>{currentGroup.firstPlural}</p>
             </div>
             <div className={styles.row}>
-              <h3>Eles, Elas</h3>
+              <h3>Eles</h3>
               <p>{currentGroup.thirdPlural}</p>
             </div>
           </div>
