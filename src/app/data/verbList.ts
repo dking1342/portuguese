@@ -6163,4 +6163,208 @@ export const verbL: verbItemArray[] = [
       },
     ],
   },
+  {
+    id: uuidv4(),
+    verb: 'raspar',
+    meaning: 'to shave (head)',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'raspo',
+          secondSingle: 'raspas',
+          thirdSingle: 'raspa',
+          firstPlural: 'raspamos',
+          thirdPlural: 'raspam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'raspei',
+          secondSingle: 'raspaste',
+          thirdSingle: 'raspou',
+          firstPlural: 'raspamos',
+          thirdPlural: 'rasparam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'rasparei',
+          secondSingle: 'rasparás',
+          thirdSingle: 'raspará',
+          firstPlural: 'rasparemos',
+          thirdPlural: 'rasparão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'raspava',
+          secondSingle: 'raspavas',
+          thirdSingle: 'raspava',
+          firstPlural: 'raspávamos',
+          thirdPlural: 'raspavam',
+        },
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    verb: 'depilar',
+    meaning: 'to shave (body)',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'depilo',
+          secondSingle: 'depilas',
+          thirdSingle: 'depila',
+          firstPlural: 'depilamos',
+          thirdPlural: 'depilam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'depilei',
+          secondSingle: 'depilaste',
+          thirdSingle: 'depilou',
+          firstPlural: 'depilamos',
+          thirdPlural: 'depilam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'depilarei',
+          secondSingle: 'depilarás',
+          thirdSingle: 'depilará',
+          firstPlural: 'depilaremos',
+          thirdPlural: 'depilarão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'depilava',
+          secondSingle: 'depilavas',
+          thirdSingle: 'depilava',
+          firstPlural: 'depilávamos',
+          thirdPlural: 'depilavam',
+        },
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    verb: 'guardar',
+    meaning: 'to put away, store',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'guardo',
+          secondSingle: 'guardas',
+          thirdSingle: 'guarda',
+          firstPlural: 'guardamos',
+          thirdPlural: 'guardam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'guardei',
+          secondSingle: 'guardaste',
+          thirdSingle: 'guardou',
+          firstPlural: 'guardamos',
+          thirdPlural: 'guradaram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'guardarei',
+          secondSingle: 'guardarás',
+          thirdSingle: 'guardará',
+          firstPlural: 'guardaremos',
+          thirdPlural: 'guardarão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'guardava',
+          secondSingle: 'guardavas',
+          thirdSingle: 'guardava',
+          firstPlural: 'guardávamos',
+          thirdPlural: 'guardavam',
+        },
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    verb: 'agendar',
+    meaning: 'to schedule',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'agendo',
+          secondSingle: 'agendas',
+          thirdSingle: 'agenda',
+          firstPlural: 'agendamos',
+          thirdPlural: 'agendam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'agendei',
+          secondSingle: 'agendaste',
+          thirdSingle: 'agendou',
+          firstPlural: 'agendamos',
+          thirdPlural: 'agendaram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'agendarei',
+          secondSingle: 'agendarás',
+          thirdSingle: 'agendará',
+          firstPlural: 'agendaremos',
+          thirdPlural: 'agendarão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'agendava',
+          secondSingle: 'agendavas',
+          thirdSingle: 'agendava',
+          firstPlural: 'agendávamos',
+          thirdPlural: 'agendavam',
+        },
+      },
+    ],
+  },
 ];

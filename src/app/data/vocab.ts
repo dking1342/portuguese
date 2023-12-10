@@ -6667,6 +6667,128 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Verbs,
   },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'gentil',
+      en: 'kind',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'bondade',
+      en: 'kindness, goodness',
+    },
+    topic: Topics.Adverbs,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'loja',
+      en: 'store',
+    },
+    topic: Topics.Places,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'raspar',
+      en: 'to shave (head)',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'depilar',
+      en: 'to shave (body)',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'adjetivo',
+      en: 'adjective',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'advérbio',
+      en: 'adverb',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'preposição',
+      en: 'preposition',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'completamente',
+      en: 'completely',
+    },
+    topic: Topics.Adverbs,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'animado',
+      en: 'excited',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'guardar',
+      en: 'put away, store',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'novia',
+      en: 'bride',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'novio',
+      en: 'groom',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'agendar',
+      en: 'to schedule',
+    },
+    topic: Topics.Verbs,
+  },
 ];
 
 export default vocabulary;
