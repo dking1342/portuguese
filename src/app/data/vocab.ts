@@ -6789,6 +6789,40 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Verbs,
   },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sentir falto',
+      en: 'i miss you',
+    },
+    topic: Topics.Expressions,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'vergonha',
+      en: 'shame',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sobrenome',
+      en: 'last name',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'soletrar',
+      en: 'to spell',
+    },
+    topic: Topics.Verbs,
+  },
 ];
 
 export default vocabulary;

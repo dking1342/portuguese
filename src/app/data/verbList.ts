@@ -943,9 +943,9 @@ export const verbL: verbItemArray[] = [
         group: {
           firstSingle: 'digo',
           secondSingle: 'dizes',
-          thirdPlural: 'diz',
+          thirdSingle: 'diz',
           firstPlural: 'dizemos',
-          thirdSingle: 'dizem',
+          thirdPlural: 'dizem',
         },
       },
       {
@@ -954,9 +954,9 @@ export const verbL: verbItemArray[] = [
         group: {
           firstSingle: 'disse',
           secondSingle: 'dissente',
-          thirdPlural: 'disse',
+          thirdSingle: 'disse',
           firstPlural: 'dissemos',
-          thirdSingle: 'disseram',
+          thirdPlural: 'disseram',
         },
       },
       {
@@ -6363,6 +6363,57 @@ export const verbL: verbItemArray[] = [
           thirdSingle: 'agendava',
           firstPlural: 'agendávamos',
           thirdPlural: 'agendavam',
+        },
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    verb: 'soletrar',
+    meaning: 'to spell',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'soletro',
+          secondSingle: 'soletras',
+          thirdSingle: 'soletra',
+          firstPlural: 'soletramos',
+          thirdPlural: 'soletram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'soletrei',
+          secondSingle: 'soletraste',
+          thirdSingle: 'soletrou',
+          firstPlural: 'soletramos',
+          thirdPlural: 'soletraram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'soletrarei',
+          secondSingle: 'soletrarás',
+          thirdSingle: 'soletrará',
+          firstPlural: 'soletraremos',
+          thirdPlural: 'soletrarão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'soletrava',
+          secondSingle: 'soletravas',
+          thirdSingle: 'soletrava',
+          firstPlural: 'soletrávamos',
+          thirdPlural: 'soletravam',
         },
       },
     ],

@@ -17,6 +17,7 @@ export enum Topics {
   Numbers = 'numbers',
   Colors = 'colors',
   Verbs = 'verbs',
+  Expressions = 'expressions',
 }
 
 export enum Gender {

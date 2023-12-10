@@ -109,6 +109,11 @@ const vocabList: vocabItem[] = [
     name: Topics.Verbs,
     image: <SlSpeech />,
   },
+  {
+    id: uuidv4(),
+    name: Topics.Expressions,
+    image: <SlSpeech />,
+  },
 ];
 
 const VocabList = () => {
