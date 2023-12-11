@@ -6418,4 +6418,157 @@ export const verbL: verbItemArray[] = [
       },
     ],
   },
+  {
+    id: uuidv4(),
+    verb: 'aproveitar',
+    meaning: 'to enjoy',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'aproveito',
+          secondSingle: 'aproveitas',
+          thirdSingle: 'aproveita',
+          firstPlural: 'aproveitamos',
+          thirdPlural: 'aproveitam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'aproveitei',
+          secondSingle: 'aproveitaste',
+          thirdSingle: 'aproveitou',
+          firstPlural: 'aproveitamos',
+          thirdPlural: 'aproveitaram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'aproveitarei',
+          secondSingle: 'aproveitás',
+          thirdSingle: 'aproveitá',
+          firstPlural: 'aproveitaremos',
+          thirdPlural: 'aproveitarão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'aproveitava',
+          secondSingle: 'aproveitavas',
+          thirdSingle: 'aproveitava',
+          firstPlural: 'aproveitávamos',
+          thirdPlural: 'aproveitavam',
+        },
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    verb: 'trocar',
+    meaning: 'to replace',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'troco',
+          secondSingle: 'trocas',
+          thirdSingle: 'troca',
+          firstPlural: 'trocamos',
+          thirdPlural: 'trocam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'trocei',
+          secondSingle: 'trocaste',
+          thirdSingle: 'trocou',
+          firstPlural: 'trocamos',
+          thirdPlural: 'trocaram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'trocarei',
+          secondSingle: 'trocarás',
+          thirdSingle: 'trocará',
+          firstPlural: 'trocaremos',
+          thirdPlural: 'trocarão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'trocava',
+          secondSingle: 'trocavas',
+          thirdSingle: 'trocava',
+          firstPlural: 'trocávamos',
+          thirdPlural: 'trocavam',
+        },
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    verb: 'tirar',
+    meaning: 'to remove, take away',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'tiro',
+          secondSingle: 'tiras',
+          thirdSingle: 'tira',
+          firstPlural: 'tiramos',
+          thirdPlural: 'tiram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'tirei',
+          secondSingle: 'tiraste',
+          thirdSingle: 'tirou',
+          firstPlural: 'tiramos',
+          thirdPlural: 'tiraram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'tirarei',
+          secondSingle: 'tirarás',
+          thirdSingle: 'tirará',
+          firstPlural: 'tiraremos',
+          thirdPlural: 'tirarão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'tirava',
+          secondSingle: 'tiravas',
+          thirdSingle: 'tirava',
+          firstPlural: 'tirávamos',
+          thirdPlural: 'tiravam',
+        },
+      },
+    ],
+  },
 ];
