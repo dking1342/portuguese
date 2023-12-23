@@ -6571,4 +6571,55 @@ export const verbL: verbItemArray[] = [
       },
     ],
   },
+  {
+    id: uuidv4(),
+    verb: 'chupar',
+    meaning: 'to suck',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'chupo',
+          secondSingle: 'chupas',
+          thirdSingle: 'chupa',
+          firstPlural: 'chupamos',
+          thirdPlural: 'chupam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'chupei',
+          secondSingle: 'chupaste',
+          thirdSingle: 'chupou',
+          firstPlural: 'chupamos',
+          thirdPlural: 'chuparam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'chuparei',
+          secondSingle: 'chuperás',
+          thirdSingle: 'chuperá',
+          firstPlural: 'chuparemos',
+          thirdPlural: 'chuparão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'chupava',
+          secondSingle: 'chupavas',
+          thirdSingle: 'chupava',
+          firstPlural: 'chupávamos',
+          thirdPlural: 'chupavam',
+        },
+      },
+    ],
+  },
 ];
