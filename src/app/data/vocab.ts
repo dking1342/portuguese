@@ -397,7 +397,7 @@ const vocabulary: vocab[] = [
       en: 'those (long, plural)',
     },
     topic: Topics.Pronoun,
-    gender: Gender.Male,
+    gender: Gender.Neutral,
   },
   {
     id: uuidv4(),
@@ -538,7 +538,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'aula',
-      en: 'lesson, class',
+      en: 'class',
     },
     topic: Topics.Noun,
     gender: Gender.Female,
@@ -1238,15 +1238,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'no entanto',
-      en: 'however',
-    },
-    topic: Topics.Conjunctions,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'ou',
       en: 'or',
     },
@@ -1301,7 +1292,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'porque',
+      pt: 'porque, pois',
       en: 'because',
     },
     topic: Topics.Conjunctions,
@@ -1310,16 +1301,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'pois',
-      en: 'because',
-    },
-    topic: Topics.Conjunctions,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'porém',
+      pt: 'porém, no entanto',
       en: 'however',
     },
     topic: Topics.Conjunctions,
@@ -1338,10 +1320,19 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'como',
-      en: 'like',
+      en: 'like, as',
     },
     topic: Topics.Conjunctions,
     gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'açúcar',
+      en: 'sugar',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
   },
   {
     id: uuidv4(),
@@ -1553,7 +1544,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'devangar',
+      pt: 'devangar, lentamente',
       en: 'slowly',
     },
     topic: Topics.Adverbs,
@@ -1805,11 +1796,20 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'avós',
+      pt: 'avó',
       en: 'grandmother',
     },
     topic: Topics.Family,
     gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pentear',
+      en: 'comb',
+    },
+    topic: Topics.House,
+    gender: Gender.Neutral,
   },
   {
     id: uuidv4(),
@@ -2067,7 +2067,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'soalho',
+      pt: 'chão',
       en: 'floor',
     },
     topic: Topics.House,
@@ -2382,15 +2382,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'olhos',
-      en: 'eyes',
-    },
-    topic: Topics.Body,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'pé',
       en: 'foot',
     },
@@ -2660,7 +2651,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'estômago',
+      pt: 'estômago, barriga',
       en: 'stomach',
     },
     topic: Topics.Body,
@@ -3152,16 +3143,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'acima de',
-      en: 'above',
-    },
-    topic: Topics.Prepositions,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'antes de',
+      pt: 'antes',
       en: 'before',
     },
     topic: Topics.Prepositions,
@@ -3170,7 +3152,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'após',
+      pt: 'após, depois',
       en: 'after',
     },
     topic: Topics.Prepositions,
@@ -3215,15 +3197,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'depois',
-      en: 'after',
-    },
-    topic: Topics.Prepositions,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'desde',
       en: 'since, from',
     },
@@ -3253,15 +3226,6 @@ const vocabulary: vocab[] = [
     word: {
       pt: 'para',
       en: 'to, for',
-    },
-    topic: Topics.Prepositions,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'perante',
-      en: 'before',
     },
     topic: Topics.Prepositions,
     gender: Gender.Neutral,
@@ -3342,14 +3306,6 @@ const vocabulary: vocab[] = [
     word: {
       pt: 'de nada',
       en: 'you are welcome',
-    },
-    topic: Topics.Salutations,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'muito prazer em conhece-lo',
-      en: 'nice to meet you',
     },
     topic: Topics.Salutations,
   },
@@ -3438,14 +3394,6 @@ const vocabulary: vocab[] = [
     word: {
       pt: 'até logo',
       en: 'see you later',
-    },
-    topic: Topics.Salutations,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'até mais tarde',
-      en: 'until later',
     },
     topic: Topics.Salutations,
   },
@@ -4679,7 +4627,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'ali',
+      pt: 'ali, lá, aí',
       en: 'there',
     },
     topic: Topics.Places,
@@ -4699,15 +4647,6 @@ const vocabulary: vocab[] = [
     word: {
       pt: 'acima',
       en: 'above',
-    },
-    topic: Topics.Places,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'lá',
-      en: 'there',
     },
     topic: Topics.Places,
     gender: Gender.Male,
@@ -4735,15 +4674,6 @@ const vocabulary: vocab[] = [
     word: {
       pt: 'atrás',
       en: 'behind',
-    },
-    topic: Topics.Places,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'aí',
-      en: 'there',
     },
     topic: Topics.Places,
     gender: Gender.Neutral,
@@ -6310,8 +6240,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'redes sociais',
-      en: 'social media',
+      pt: 'rede social',
+      en: 'social network',
     },
     topic: Topics.Noun,
     gender: Gender.Neutral,
@@ -6319,7 +6249,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'redes',
+      pt: 'rede',
       en: 'network',
     },
     topic: Topics.Noun,
@@ -6508,7 +6438,16 @@ const vocabulary: vocab[] = [
       pt: 'duplo',
       en: 'double',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Numbers,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'triplo',
+      en: 'triple',
+    },
+    topic: Topics.Numbers,
     gender: Gender.Male,
   },
   {
@@ -6548,7 +6487,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'mandar',
+      pt: 'mandar, enviar',
       en: 'to send',
     },
     topic: Topics.Verbs,
@@ -6685,7 +6624,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'novia',
+      pt: 'noiva',
       en: 'bride',
     },
     topic: Topics.Noun,
@@ -6694,7 +6633,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'novio',
+      pt: 'noivo',
       en: 'groom',
     },
     topic: Topics.Noun,
@@ -7311,6 +7250,24 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
+      pt: 'pesa',
+      en: 'weigh',
+    },
+    topic: Topics.Body,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'gordo',
+      en: 'fat',
+    },
+    topic: Topics.Body,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
       pt: 'carne',
       en: 'meat',
     },
@@ -7842,6 +7799,86 @@ const vocabulary: vocab[] = [
       en: 'to suck',
     },
     topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'moça',
+      en: 'young woman',
+    },
+    topic: Topics.Body,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'moço',
+      en: 'young man',
+    },
+    topic: Topics.Body,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'duvidar',
+      en: 'to doubt',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'escrita',
+      en: 'writing',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'anteontem',
+      en: 'day before yesterday',
+    },
+    topic: Topics.Calendar,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'armário',
+      en: 'closet',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pelo',
+      en: 'fur',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'flor',
+      en: 'flower',
+    },
+    topic: Topics.Plants,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sentido',
+      en: 'sense',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
   },
 ];
 

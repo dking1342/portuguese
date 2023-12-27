@@ -6622,4 +6622,55 @@ export const verbL: verbItemArray[] = [
       },
     ],
   },
+  {
+    id: uuidv4(),
+    verb: 'duvidar',
+    meaning: 'to doubt',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'duvido',
+          secondSingle: 'duvidas',
+          thirdSingle: 'duvida',
+          firstPlural: 'duvidamos',
+          thirdPlural: 'duvidam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'duvidei',
+          secondSingle: 'duvidaste',
+          thirdSingle: 'duvidou',
+          firstPlural: 'duvidamos',
+          thirdPlural: 'duvidaram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'duvidarei',
+          secondSingle: 'duvidarás',
+          thirdSingle: 'duvidará',
+          firstPlural: 'duvidaremos',
+          thirdPlural: 'duvidarão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'duvidava',
+          secondSingle: 'duvidavas',
+          thirdSingle: 'duvidava',
+          firstPlural: 'duvidavámos',
+          thirdPlural: 'duvidavam',
+        },
+      },
+    ],
+  },
 ];
