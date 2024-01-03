@@ -31,6 +31,8 @@ const VerbList = ({ verbs }: Props) => {
     resetList();
   }, []);
 
+  console.log({ verbs: verbs.length });
+
   return (
     <div className={styles.container}>
       <div className={styles.search}>

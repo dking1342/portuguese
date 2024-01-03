@@ -833,15 +833,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'lado',
-      en: 'side',
-    },
-    topic: Topics.Noun,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'lei',
       en: 'law',
     },
@@ -7957,6 +7948,32 @@ const vocabulary: vocab[] = [
       en: 'software engineer',
     },
     topic: Topics.Jobs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'endereço',
+      en: 'address',
+    },
+    topic: Topics.Places,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'comparar',
+      en: 'to compare',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sobremesa',
+      en: 'dessert',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
   },
 ];
 

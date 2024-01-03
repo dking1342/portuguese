@@ -6775,4 +6775,55 @@ export const verbL: verbItemArray[] = [
       },
     ],
   },
+  {
+    id: uuidv4(),
+    verb: 'comparar',
+    meaning: 'to compare',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'comparo',
+          secondSingle: 'comparas',
+          thirdSingle: 'compara',
+          firstPlural: 'comparamos',
+          thirdPlural: 'comparam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'comparei',
+          secondSingle: 'comparaste',
+          thirdSingle: 'comparou',
+          firstPlural: 'comparamos',
+          thirdPlural: 'compararam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'compararei',
+          secondSingle: 'compararás',
+          thirdSingle: 'comparará',
+          firstPlural: 'compararemos',
+          thirdPlural: 'compararão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'comparava',
+          secondSingle: 'comparavas',
+          thirdSingle: 'comparava',
+          firstPlural: 'comparavámos',
+          thirdPlural: 'comparavam',
+        },
+      },
+    ],
+  },
 ];
