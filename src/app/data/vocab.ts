@@ -420,17 +420,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'qual',
-      en: 'which (1)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'quais',
-      en: 'which (2)',
+      pt: 'qual, quais',
+      en: 'which',
     },
     topic: Topics.Pronoun,
     gender: Gender.Neutral,
@@ -671,15 +662,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'muita',
-      en: 'many',
-    },
-    topic: Topics.Adjectives,
-    gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'vários',
       en: 'several',
     },
@@ -698,7 +680,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'ambos',
+      pt: 'ambos, os dois',
       en: 'both',
     },
     topic: Topics.Pronoun,
@@ -951,7 +933,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'vez',
-      en: 'time',
+      en: 'time (occurance)',
     },
     topic: Topics.Noun,
     gender: Gender.Female,
@@ -5256,7 +5238,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'acabar',
+      pt: 'acabar, terminar',
       en: 'to finish, to complete',
     },
     topic: Topics.Verbs,
@@ -5320,7 +5302,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'caminhar',
+      pt: 'caminhar, andar',
       en: 'to walk',
     },
     topic: Topics.Verbs,
@@ -5565,7 +5547,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'cachorro',
+      pt: 'cachorro, cão',
       en: 'dog',
     },
     topic: Topics.Animals,
@@ -7760,7 +7742,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'xícara',
-      en: 'cup',
+      en: 'coffee cup',
     },
     topic: Topics.House,
     gender: Gender.Female,
@@ -7879,6 +7861,102 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Noun,
     gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'forte',
+      en: 'strong',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'lua',
+      en: 'moon',
+    },
+    topic: Topics.Weather,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'seios',
+      en: 'breasts',
+    },
+    topic: Topics.Body,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'escova',
+      en: 'brush',
+    },
+    topic: Topics.House,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'ovelha',
+      en: 'sheep',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'carneiro',
+      en: 'ram',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'urso',
+      en: 'bear',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'lobo',
+      en: 'wolf',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'mexer',
+      en: 'to mix, stir, move',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'provar',
+      en: 'to taste',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'desenvolvedores de software',
+      en: 'software engineer',
+    },
+    topic: Topics.Jobs,
   },
 ];
 

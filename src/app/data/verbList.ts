@@ -6673,4 +6673,106 @@ export const verbL: verbItemArray[] = [
       },
     ],
   },
+  {
+    id: uuidv4(),
+    verb: 'provar',
+    meaning: 'to taste',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'provo',
+          secondSingle: 'provas',
+          thirdSingle: 'prova',
+          firstPlural: 'provamos',
+          thirdPlural: 'provam',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'provei',
+          secondSingle: 'provaste',
+          thirdSingle: 'provou',
+          firstPlural: 'provamos',
+          thirdPlural: 'provaram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'provarei',
+          secondSingle: 'provarás',
+          thirdSingle: 'provará',
+          firstPlural: 'provaremos',
+          thirdPlural: 'provarão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'provava',
+          secondSingle: 'provavas',
+          thirdSingle: 'provava',
+          firstPlural: 'provavámos',
+          thirdPlural: 'provavam',
+        },
+      },
+    ],
+  },
+  {
+    id: uuidv4(),
+    verb: 'mexer',
+    meaning: 'to mix, stir, move',
+    tenses: [
+      {
+        id: uuidv4(),
+        tense: Tense.present,
+        group: {
+          firstSingle: 'mexo',
+          secondSingle: 'mexes',
+          thirdSingle: 'mexe',
+          firstPlural: 'mexemos',
+          thirdPlural: 'mexem',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.past,
+        group: {
+          firstSingle: 'mexi',
+          secondSingle: 'mexeste',
+          thirdSingle: 'mexeu',
+          firstPlural: 'mexemos',
+          thirdPlural: 'mexeram',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.future,
+        group: {
+          firstSingle: 'mexerei',
+          secondSingle: 'mexerás',
+          thirdSingle: 'mexerá',
+          firstPlural: 'mexeremos',
+          thirdPlural: 'mexerão',
+        },
+      },
+      {
+        id: uuidv4(),
+        tense: Tense.imperfect,
+        group: {
+          firstSingle: 'mexia',
+          secondSingle: 'mexias',
+          thirdSingle: 'mexia',
+          firstPlural: 'mexíamos',
+          thirdPlural: 'mexiam',
+        },
+      },
+    ],
+  },
 ];
