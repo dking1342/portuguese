@@ -1778,7 +1778,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'pentear',
+      pt: 'pente',
       en: 'comb',
     },
     topic: Topics.House,
@@ -7974,6 +7974,24 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Food,
     gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'leve',
+      en: 'light',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pesado',
+      en: 'heavy',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
   },
 ];
 
