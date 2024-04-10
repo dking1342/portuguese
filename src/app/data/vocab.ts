@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import { Topics, Gender } from '../constants';
 import { vocab } from '../types';
+import { generateKey } from 'crypto';
 
 const vocabulary: vocab[] = [
   {
@@ -6197,7 +6198,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'caixa',
-      en: 'box',
+      en: 'box, cash register',
     },
     topic: Topics.Noun,
     gender: Gender.Female,
@@ -7025,11 +7026,11 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'taxa',
-      en: 'rate, tax, fee',
+      pt: 'imposto',
+      en: 'tax',
     },
     topic: Topics.Noun,
-    gender: Gender.Female,
+    gender: Gender.Male,
   },
   {
     id: uuidv4(),
@@ -7992,6 +7993,356 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Adjectives,
     gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'prata',
+      en: 'silver',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'barco',
+      en: 'boat',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sábio',
+      en: 'wise',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'agradável',
+      en: 'pleasant',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'principalmente',
+      en: 'mainly',
+    },
+    topic: Topics.Adverbs,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'príncipe',
+      en: 'prince',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'preparar',
+      en: 'to prepare',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'gratuito',
+      en: 'free',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'detalhe',
+      en: 'detail',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'convidado',
+      en: 'guest',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'revisar',
+      en: 'to review',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'praticar',
+      en: 'to practice',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'primeiro',
+      en: 'first',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'segundo',
+      en: 'second',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'terceiro',
+      en: 'third',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'quarto',
+      en: 'fourth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'quinto',
+      en: 'fifth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sexto',
+      en: 'sixth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sétimo',
+      en: 'seventh',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'oitava',
+      en: 'eigth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'nono',
+      en: 'ninth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'décimo',
+      en: 'tenth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'vigésimo',
+      en: 'twentieth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'trigésimo',
+      en: 'thirtieth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'quadragésimo',
+      en: 'fortieth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'quinquagésimo',
+      en: 'fiftieth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sexagésimo',
+      en: 'sixtieth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'septagésimo',
+      en: 'seventieth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'octogésimo',
+      en: 'eightieth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'nonagésimo',
+      en: 'nintieth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'centésimo',
+      en: 'one hundreth',
+    },
+    topic: Topics.Numbers,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'juntar',
+      en: 'to join',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'estrutura',
+      en: 'structure',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'frase',
+      en: 'sentence',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'andar',
+      en: 'floor (building)',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'feriado',
+      en: 'holiday',
+    },
+    topic: Topics.Calendar,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'férias',
+      en: 'vacation',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'está na hora de (verb)',
+      en: 'it is time to (verb)',
+    },
+    topic: Topics.Expressions,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'assim de diante',
+      en: 'so on',
+    },
+    topic: Topics.Expressions,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'a partir daqui',
+      en: 'from then on',
+    },
+    topic: Topics.Expressions,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'a partir de agora',
+      en: 'from now on',
+    },
+    topic: Topics.Expressions,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'a partir de hoje',
+      en: 'from today',
+    },
+    topic: Topics.Expressions,
   },
 ];
 
