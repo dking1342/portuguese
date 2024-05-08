@@ -9088,7 +9088,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'contacto',
+      pt: 'contrato',
       en: 'contract',
     },
     topic: Topics.Noun,
