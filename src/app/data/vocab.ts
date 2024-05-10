@@ -6712,7 +6712,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'reunião',
+      pt: 'reunião, encontro',
       en: 'meeting',
     },
     topic: Topics.Noun,
@@ -8385,6 +8385,7 @@ const vocabulary: vocab[] = [
       en: 'tiring',
     },
     topic: Topics.Adjectives,
+    gender: Gender.Male,
   },
   {
     id: uuidv4(),
@@ -8577,7 +8578,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'ganhar',
+      pt: 'ganhar, vencer',
       en: 'to win',
     },
     topic: Topics.Verbs,
@@ -9029,15 +9030,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'encontro',
-      en: 'meeting',
-    },
-    topic: Topics.Noun,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'sofrer',
       en: 'to suffer',
     },
@@ -9047,7 +9039,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'policial',
-      en: 'the police',
+      en: 'police officer',
     },
     topic: Topics.Noun,
   },
@@ -9294,6 +9286,23 @@ const vocabulary: vocab[] = [
       en: 'salesman, seller',
     },
     topic: Topics.Jobs,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'experimentar',
+      en: 'to try on',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'atrasado',
+      en: 'late',
+    },
+    topic: Topics.Adjectives,
     gender: Gender.Male,
   },
 ];
