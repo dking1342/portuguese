@@ -16,15 +16,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'me',
-      en: 'me, reflexive',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'mim',
       en: 'me',
     },
@@ -61,8 +52,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'você',
-      en: 'you (formal)',
+      pt: 'você, tu',
+      en: 'you',
     },
     topic: Topics.Pronoun,
     gender: Gender.Neutral,
@@ -70,8 +61,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'seu',
-      en: 'your',
+      pt: 'seu/s',
+      en: 'your/s',
     },
     topic: Topics.Pronoun,
     gender: Gender.Male,
@@ -79,20 +70,11 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'sua',
-      en: 'your',
+      pt: 'sua/s',
+      en: 'your/s',
     },
     topic: Topics.Pronoun,
     gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'tu',
-      en: 'you (informal)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Neutral,
   },
   {
     id: uuidv4(),
@@ -142,7 +124,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'nós',
+      pt: 'nós, a gente',
       en: 'we',
     },
     topic: Topics.Pronoun,
@@ -160,8 +142,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'nosso',
-      en: 'our',
+      pt: 'nosso/s',
+      en: 'our/s',
     },
     topic: Topics.Pronoun,
     gender: Gender.Male,
@@ -169,26 +151,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'nossos',
-      en: 'ours',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'nossa',
-      en: 'our',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'nossas',
-      en: 'ours',
+      pt: 'nossa/s',
+      en: 'our/s',
     },
     topic: Topics.Pronoun,
     gender: Gender.Female,
@@ -210,24 +174,6 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Pronoun,
     gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'seus',
-      en: 'yours',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'suas',
-      en: 'yours',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Female,
   },
   {
     id: uuidv4(),
@@ -268,8 +214,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'este',
-      en: 'this (near)',
+      pt: 'este/s',
+      en: 'this, these (near)',
     },
     topic: Topics.Pronoun,
     gender: Gender.Male,
@@ -277,8 +223,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'esta',
-      en: 'this (near)',
+      pt: 'esta/s',
+      en: 'this, these (near)',
     },
     topic: Topics.Pronoun,
     gender: Gender.Female,
@@ -286,8 +232,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'isto',
-      en: 'this (near)',
+      pt: 'isto, isso',
+      en: 'this that (near)',
     },
     topic: Topics.Pronoun,
     gender: Gender.Neutral,
@@ -295,8 +241,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'estes',
-      en: 'these (near)',
+      pt: 'esse/s',
+      en: 'that, those (far)',
     },
     topic: Topics.Pronoun,
     gender: Gender.Male,
@@ -304,8 +250,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'estas',
-      en: 'these (near)',
+      pt: 'essa/s',
+      en: 'that, those (far)',
     },
     topic: Topics.Pronoun,
     gender: Gender.Female,
@@ -313,92 +259,10 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'esse',
-      en: 'that (far)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'essa',
-      en: 'that (far)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'isso',
-      en: 'that (far)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'aquele',
+      pt: 'aquele, aquela, aquelo',
       en: 'that (long)',
     },
     topic: Topics.Pronoun,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'aquela',
-      en: 'that (long)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'aquelo',
-      en: 'that (long)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'esses',
-      en: 'those (far, plural)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'essas',
-      en: 'those (far, plural)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'aquelas',
-      en: 'those (long, plural)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'aquelos',
-      en: 'those (long, plural)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Neutral,
   },
   {
     id: uuidv4(),
@@ -618,20 +482,11 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'algum',
-      en: 'some (singular)',
+      pt: 'algum/as',
+      en: 'some',
     },
     topic: Topics.Pronoun,
     gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'algumas',
-      en: 'some (plural)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Female,
   },
   {
     id: uuidv4(),
@@ -4966,7 +4821,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'parecar',
+      pt: 'parecer',
       en: 'to feel, to seem',
     },
     topic: Topics.Verbs,
@@ -5365,15 +5220,6 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Adjectives,
     gender: Gender.Neutral,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'tarde',
-      en: 'late',
-    },
-    topic: Topics.Adjectives,
-    gender: Gender.Female,
   },
   {
     id: uuidv4(),
@@ -6624,7 +6470,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'sentir falto',
+      pt: 'sinto falto',
       en: 'i miss you',
     },
     topic: Topics.Expressions,
@@ -6654,15 +6500,6 @@ const vocabulary: vocab[] = [
       en: 'to spell',
     },
     topic: Topics.Verbs,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'a gente',
-      en: 'we, us (informal)',
-    },
-    topic: Topics.Pronoun,
-    gender: Gender.Neutral,
   },
   {
     id: uuidv4(),
@@ -8059,15 +7896,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'gratuito',
-      en: 'free',
-    },
-    topic: Topics.Noun,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'detalhe',
       en: 'detail',
     },
@@ -8491,7 +8319,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'perdorar',
+      pt: 'perdoar',
       en: 'to forgive',
     },
     topic: Topics.Verbs,
@@ -8735,7 +8563,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'notícias',
+      pt: 'notícias, novidade',
       en: 'news',
     },
     topic: Topics.Noun,
@@ -8778,7 +8606,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'utilizador',
+      pt: 'utilizador, usuário',
       en: 'user',
     },
     topic: Topics.Noun,
@@ -8948,15 +8776,6 @@ const vocabulary: vocab[] = [
       en: 'to offer',
     },
     topic: Topics.Verbs,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'veículo',
-      en: 'vehicle',
-    },
-    topic: Topics.Noun,
-    gender: Gender.Male,
   },
   {
     id: uuidv4(),
@@ -9160,11 +8979,11 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'livre',
+      pt: 'livre, gratuito',
       en: 'free',
     },
     topic: Topics.Adjectives,
-    gender: Gender.Male,
+    gender: Gender.Neutral,
   },
   {
     id: uuidv4(),
@@ -9299,11 +9118,192 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'atrasado',
+      pt: 'atrasado, tarde',
       en: 'late',
     },
     topic: Topics.Adjectives,
     gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'vaca',
+      en: 'cow',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'mel',
+      en: 'honey',
+    },
+    topic: Topics.Food,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'jacaré',
+      en: 'alligator',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'lagoa',
+      en: 'lagoon',
+    },
+    topic: Topics.Places,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'corrigir',
+      en: 'to correct',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'plantão',
+      en: 'duty',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'adicionar',
+      en: 'to add',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'abrigo',
+      en: 'shelter',
+    },
+    topic: Topics.Places,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'rodovia',
+      en: 'highway',
+    },
+    topic: Topics.Places,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cobertor',
+      en: 'blanket',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'travesseiro',
+      en: 'pillow',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'fronha',
+      en: 'pillow case',
+    },
+    topic: Topics.House,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'raiva',
+      en: 'anger',
+    },
+    topic: Topics.Body,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'gritar',
+      en: 'to shout',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'barulho',
+      en: 'noise',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'som',
+      en: 'sound',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'calar',
+      en: 'to silence',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cala a sua boca',
+      en: 'shut your mouth',
+    },
+    topic: Topics.Expressions,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'calma',
+      en: 'calm',
+    },
+    topic: Topics.Body,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'gemer',
+      en: 'to moan, groan',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pato',
+      en: 'duck',
+    },
+    topic: Topics.Animals,
   },
 ];
 
