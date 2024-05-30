@@ -387,7 +387,7 @@ const vocabulary: vocab[] = [
       pt: 'lição',
       en: 'lesson',
     },
-    topic: Topics.Noun,
+    topic: Topics.School,
     gender: Gender.Female,
   },
   {
@@ -396,7 +396,7 @@ const vocabulary: vocab[] = [
       pt: 'aula',
       en: 'class',
     },
-    topic: Topics.Noun,
+    topic: Topics.School,
     gender: Gender.Female,
   },
   {
@@ -405,7 +405,7 @@ const vocabulary: vocab[] = [
       pt: 'aluno, estudante',
       en: 'student',
     },
-    topic: Topics.Noun,
+    topic: Topics.School,
   },
   {
     id: uuidv4(),
@@ -413,7 +413,7 @@ const vocabulary: vocab[] = [
       pt: 'pronomes',
       en: 'pronouns',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Male,
   },
   {
@@ -422,7 +422,7 @@ const vocabulary: vocab[] = [
       pt: 'substantivo',
       en: 'noun',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Male,
   },
   {
@@ -431,7 +431,7 @@ const vocabulary: vocab[] = [
       pt: 'verbo',
       en: 'verb',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Male,
   },
   {
@@ -620,13 +620,13 @@ const vocabulary: vocab[] = [
       pt: 'estudo',
       en: 'study',
     },
-    topic: Topics.Noun,
+    topic: Topics.School,
     gender: Gender.Male,
   },
   {
     id: uuidv4(),
     word: {
-      pt: 'fim',
+      pt: 'fim, final',
       en: 'end',
     },
     topic: Topics.Noun,
@@ -674,7 +674,7 @@ const vocabulary: vocab[] = [
       pt: 'história',
       en: 'history',
     },
-    topic: Topics.Noun,
+    topic: Topics.School,
     gender: Gender.Female,
   },
   {
@@ -728,7 +728,7 @@ const vocabulary: vocab[] = [
       pt: 'palavra',
       en: 'word',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Female,
   },
   {
@@ -797,7 +797,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'razaõ',
+      pt: 'razaõ, motivo',
       en: 'reason',
     },
     topic: Topics.Noun,
@@ -818,7 +818,7 @@ const vocabulary: vocab[] = [
       pt: 'medo',
       en: 'fear',
     },
-    topic: Topics.Noun,
+    topic: Topics.Body,
     gender: Gender.Male,
   },
   {
@@ -1184,8 +1184,8 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'mesmo',
-      en: 'same',
+      pt: 'mesmo, igual',
+      en: 'same, equal',
     },
     topic: Topics.Adjectives,
     gender: Gender.Male,
@@ -1247,7 +1247,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'estrada',
+      pt: 'estrada, rodovia',
       en: 'road',
     },
     topic: Topics.Places,
@@ -1405,15 +1405,6 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Adverbs,
     gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'igual',
-      en: 'equal',
-    },
-    topic: Topics.Adjectives,
-    gender: Gender.Neutral,
   },
   {
     id: uuidv4(),
@@ -1944,7 +1935,7 @@ const vocabulary: vocab[] = [
       pt: 'doce',
       en: 'sweet',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Food,
     gender: Gender.Male,
   },
   {
@@ -1953,7 +1944,7 @@ const vocabulary: vocab[] = [
       pt: 'amargo',
       en: 'bitter',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Food,
     gender: Gender.Male,
   },
   {
@@ -2007,7 +1998,7 @@ const vocabulary: vocab[] = [
       pt: 'livro',
       en: 'book',
     },
-    topic: Topics.House,
+    topic: Topics.School,
     gender: Gender.Male,
   },
   {
@@ -2058,7 +2049,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'banho',
+      pt: 'banho, chuveiro',
       en: 'shower',
     },
     topic: Topics.House,
@@ -2231,15 +2222,6 @@ const vocabulary: vocab[] = [
     word: {
       pt: 'saúde',
       en: 'health',
-    },
-    topic: Topics.Body,
-    gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'velha',
-      en: 'old',
     },
     topic: Topics.Body,
     gender: Gender.Female,
@@ -2609,8 +2591,17 @@ const vocabulary: vocab[] = [
       pt: 'galinha',
       en: 'rooster',
     },
-    topic: Topics.Food,
+    topic: Topics.Animals,
     gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'morro',
+      en: 'hill',
+    },
+    topic: Topics.Places,
+    gender: Gender.Male,
   },
   {
     id: uuidv4(),
@@ -4441,7 +4432,7 @@ const vocabulary: vocab[] = [
       pt: 'governo',
       en: 'government',
     },
-    topic: Topics.Places,
+    topic: Topics.Jobs,
     gender: Gender.Male,
   },
   {
@@ -4474,7 +4465,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'acima',
+      pt: 'em cima',
       en: 'above',
     },
     topic: Topics.Places,
@@ -4661,7 +4652,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'começar',
+      pt: 'começar, iniciar',
       en: 'to start',
     },
     topic: Topics.Verbs,
@@ -4941,7 +4932,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'vestir',
+      pt: 'vestir, usar',
       en: 'to wear',
     },
     topic: Topics.Verbs,
@@ -5234,7 +5225,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'castanho',
-      en: 'brown',
+      en: 'brown (body)',
     },
     topic: Topics.Colors,
     gender: Gender.Male,
@@ -5563,7 +5554,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'brigar',
+      pt: 'brigar, lutar',
       en: 'to fight',
     },
     topic: Topics.Verbs,
@@ -5746,7 +5737,7 @@ const vocabulary: vocab[] = [
       pt: 'significado',
       en: 'meaning',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Male,
   },
   {
@@ -5931,7 +5922,7 @@ const vocabulary: vocab[] = [
       pt: 'ansiedade',
       en: 'anxiety',
     },
-    topic: Topics.Adverbs,
+    topic: Topics.Body,
     gender: Gender.Female,
   },
   {
@@ -6195,7 +6186,7 @@ const vocabulary: vocab[] = [
       pt: 'poderosa',
       en: 'powerful',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Body,
     gender: Gender.Female,
   },
   {
@@ -6237,16 +6228,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'motivo',
-      en: 'reason, motive',
-    },
-    topic: Topics.Noun,
-    gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'equipe',
+      pt: 'equipe, time',
       en: 'team',
     },
     topic: Topics.Noun,
@@ -6351,7 +6333,7 @@ const vocabulary: vocab[] = [
       pt: 'gentil',
       en: 'kind',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Body,
     gender: Gender.Neutral,
   },
   {
@@ -6360,7 +6342,7 @@ const vocabulary: vocab[] = [
       pt: 'bondade',
       en: 'kindness, goodness',
     },
-    topic: Topics.Adverbs,
+    topic: Topics.Body,
     gender: Gender.Female,
   },
   {
@@ -6394,7 +6376,7 @@ const vocabulary: vocab[] = [
       pt: 'adjetivo',
       en: 'adjective',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Male,
   },
   {
@@ -6403,7 +6385,7 @@ const vocabulary: vocab[] = [
       pt: 'advérbio',
       en: 'adverb',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Male,
   },
   {
@@ -6412,7 +6394,7 @@ const vocabulary: vocab[] = [
       pt: 'preposição',
       en: 'preposition',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Female,
   },
   {
@@ -6481,7 +6463,7 @@ const vocabulary: vocab[] = [
       pt: 'vergonha',
       en: 'shame',
     },
-    topic: Topics.Noun,
+    topic: Topics.Body,
     gender: Gender.Female,
   },
   {
@@ -6669,7 +6651,7 @@ const vocabulary: vocab[] = [
       pt: 'polícia',
       en: 'police',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Female,
   },
   {
@@ -6693,7 +6675,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'assunto',
+      pt: 'assunto, tema',
       en: 'theme, topic',
     },
     topic: Topics.Noun,
@@ -6938,7 +6920,7 @@ const vocabulary: vocab[] = [
       pt: 'paz',
       en: 'peace',
     },
-    topic: Topics.Noun,
+    topic: Topics.Body,
     gender: Gender.Male,
   },
   {
@@ -7057,15 +7039,6 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Body,
     gender: Gender.Male,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'pesa',
-      en: 'weigh',
-    },
-    topic: Topics.Body,
-    gender: Gender.Female,
   },
   {
     id: uuidv4(),
@@ -7232,15 +7205,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'perda',
-      en: 'loss, waste',
-    },
-    topic: Topics.Noun,
-    gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'bolsa',
       en: 'handbag, purse',
     },
@@ -7262,13 +7226,13 @@ const vocabulary: vocab[] = [
       pt: 'alegria',
       en: 'joy',
     },
-    topic: Topics.Noun,
+    topic: Topics.Body,
     gender: Gender.Female,
   },
   {
     id: uuidv4(),
     word: {
-      pt: 'telefone',
+      pt: 'telefone, cellular',
       en: 'telephone',
     },
     topic: Topics.Noun,
@@ -7342,17 +7306,8 @@ const vocabulary: vocab[] = [
       pt: 'leitura',
       en: 'reading',
     },
-    topic: Topics.Noun,
+    topic: Topics.School,
     gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
-      pt: 'navio',
-      en: 'ship',
-    },
-    topic: Topics.Noun,
-    gender: Gender.Male,
   },
   {
     id: uuidv4(),
@@ -7394,7 +7349,7 @@ const vocabulary: vocab[] = [
       pt: 'faculdade',
       en: 'college',
     },
-    topic: Topics.Places,
+    topic: Topics.School,
     gender: Gender.Female,
   },
   {
@@ -7430,7 +7385,7 @@ const vocabulary: vocab[] = [
       pt: 'coragem',
       en: 'courage',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Body,
     gender: Gender.Female,
   },
   {
@@ -7555,7 +7510,7 @@ const vocabulary: vocab[] = [
       pt: 'desodorante',
       en: 'deodorant',
     },
-    topic: Topics.House,
+    topic: Topics.Body,
     gender: Gender.Female,
   },
   {
@@ -7643,7 +7598,7 @@ const vocabulary: vocab[] = [
       pt: 'escrita',
       en: 'writing',
     },
-    topic: Topics.Noun,
+    topic: Topics.School,
     gender: Gender.Female,
   },
   {
@@ -7843,7 +7798,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'barco',
+      pt: 'barco, navio',
       en: 'boat',
     },
     topic: Topics.Noun,
@@ -7855,7 +7810,7 @@ const vocabulary: vocab[] = [
       pt: 'sábio',
       en: 'wise',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Body,
     gender: Gender.Male,
   },
   {
@@ -7882,7 +7837,7 @@ const vocabulary: vocab[] = [
       pt: 'príncipe',
       en: 'prince',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Male,
   },
   {
@@ -8102,7 +8057,7 @@ const vocabulary: vocab[] = [
       pt: 'frase',
       en: 'sentence',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Male,
   },
   {
@@ -8269,7 +8224,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'empurre',
-      en: 'to push',
+      en: 'push',
     },
     topic: Topics.Noun,
     gender: Gender.Male,
@@ -8288,7 +8243,7 @@ const vocabulary: vocab[] = [
       pt: 'escritório',
       en: 'office (place)',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
   },
   {
     id: uuidv4(),
@@ -8425,7 +8380,7 @@ const vocabulary: vocab[] = [
       pt: 'medida',
       en: 'measure',
     },
-    topic: Topics.Places,
+    topic: Topics.Noun,
     gender: Gender.Female,
   },
   {
@@ -8475,10 +8430,10 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'obra',
+      pt: 'obra, trabalho',
       en: 'work',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Female,
   },
   {
@@ -8557,7 +8512,7 @@ const vocabulary: vocab[] = [
       pt: 'negócio',
       en: 'business',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Male,
   },
   {
@@ -8843,7 +8798,7 @@ const vocabulary: vocab[] = [
       pt: 'atendimento',
       en: 'attendance',
     },
-    topic: Topics.Noun,
+    topic: Topics.School,
     gender: Gender.Male,
   },
   {
@@ -8860,7 +8815,7 @@ const vocabulary: vocab[] = [
       pt: 'policial',
       en: 'police officer',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
   },
   {
     id: uuidv4(),
@@ -8902,7 +8857,7 @@ const vocabulary: vocab[] = [
       pt: 'contrato',
       en: 'contract',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Male,
   },
   {
@@ -8920,7 +8875,7 @@ const vocabulary: vocab[] = [
       pt: 'militar',
       en: 'military',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Jobs,
     gender: Gender.Male,
   },
   {
@@ -8938,7 +8893,7 @@ const vocabulary: vocab[] = [
       pt: 'ciência',
       en: 'science',
     },
-    topic: Topics.Noun,
+    topic: Topics.School,
     gender: Gender.Female,
   },
   {
@@ -8956,7 +8911,7 @@ const vocabulary: vocab[] = [
       pt: 'entrevista',
       en: 'interview',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Female,
   },
   {
@@ -9009,7 +8964,7 @@ const vocabulary: vocab[] = [
       pt: 'mundial',
       en: 'worldwide',
     },
-    topic: Topics.Noun,
+    topic: Topics.Places,
     gender: Gender.Male,
   },
   {
@@ -9043,7 +8998,7 @@ const vocabulary: vocab[] = [
       pt: 'fornecedo',
       en: 'supplier',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Male,
   },
   {
@@ -9052,7 +9007,7 @@ const vocabulary: vocab[] = [
       pt: 'contato',
       en: 'contact',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Male,
   },
   {
@@ -9196,15 +9151,6 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'rodovia',
-      en: 'highway',
-    },
-    topic: Topics.Places,
-    gender: Gender.Female,
-  },
-  {
-    id: uuidv4(),
-    word: {
       pt: 'cobertor',
       en: 'blanket',
     },
@@ -9304,6 +9250,534 @@ const vocabulary: vocab[] = [
       en: 'duck',
     },
     topic: Topics.Animals,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'salgado',
+      en: 'salty',
+    },
+    topic: Topics.Food,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pia',
+      en: 'sink',
+    },
+    topic: Topics.House,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'vaso sanitário, vaso',
+      en: 'toilet',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'machucar, magoar',
+      en: 'hurt',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'churrasco',
+      en: 'barbeque',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'batata fritas',
+      en: 'french fries',
+    },
+    topic: Topics.Food,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pipoca',
+      en: 'popcorn',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'sopa',
+      en: 'soup',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'escuro',
+      en: 'dark',
+    },
+    topic: Topics.Colors,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'claro',
+      en: 'clear, light',
+    },
+    topic: Topics.Colors,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'marrom',
+      en: 'brown (other)',
+    },
+    topic: Topics.Colors,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'coruja',
+      en: 'owl',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'fusca',
+      en: 'beetle',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'barata',
+      en: 'cockroach',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'formiga',
+      en: 'ant',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'geografia',
+      en: 'geography',
+    },
+    topic: Topics.School,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'matemática',
+      en: 'math',
+    },
+    topic: Topics.School,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'arte',
+      en: 'art',
+    },
+    topic: Topics.School,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'musica',
+      en: 'music',
+    },
+    topic: Topics.School,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'biologia',
+      en: 'biology',
+    },
+    topic: Topics.School,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'lingua, idioma',
+      en: 'language',
+    },
+    topic: Topics.School,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'física',
+      en: 'physics',
+    },
+    topic: Topics.School,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'quimica',
+      en: 'chemistry',
+    },
+    topic: Topics.School,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'educação física',
+      en: 'physical education, gym',
+    },
+    topic: Topics.School,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'uva',
+      en: 'grape',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'manga',
+      en: 'mango',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pêra',
+      en: 'pear',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'limão',
+      en: 'lemon',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cereja',
+      en: 'cherry',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pêssego',
+      en: 'peach',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'ameixa',
+      en: 'plum',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'abacate',
+      en: 'avocado',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'maracujá',
+      en: 'passion fruit',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'coco',
+      en: 'coconut',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'mamão',
+      en: 'papaya',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'romã',
+      en: 'pomegranate',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'semente',
+      en: 'seed',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'torta',
+      en: 'pie',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'amêndoa',
+      en: 'almond',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'amendoim',
+      en: 'peanut',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'castanha de caju',
+      en: 'cashew nut',
+    },
+    topic: Topics.Food,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'noz',
+      en: 'walnut',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'noz-pecã',
+      en: 'pecan',
+    },
+    topic: Topics.Food,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'avelã',
+      en: 'hazelnut',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pinhão',
+      en: 'pine nut',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'camarão',
+      en: 'shrimp',
+    },
+    topic: Topics.Food,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'atum',
+      en: 'tuna',
+    },
+    topic: Topics.Food,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'geladeira',
+      en: 'refrigerator',
+    },
+    topic: Topics.House,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'fogão',
+      en: 'stove',
+    },
+    topic: Topics.House,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'micro, micro-ondas',
+      en: 'microwave',
+    },
+    topic: Topics.House,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'computador',
+      en: 'computer',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'notebook',
+      en: 'laptop',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'lâmpada',
+      en: 'lamp/bulb',
+    },
+    topic: Topics.House,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'ventilador',
+      en: 'fan',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'aspirador de pó',
+      en: 'vacuum cleaner',
+    },
+    topic: Topics.House,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'máquina de lavar',
+      en: 'washing machine',
+    },
+    topic: Topics.House,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'secadora',
+      en: 'dryer',
+    },
+    topic: Topics.House,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'liquidificador',
+      en: 'blender',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'talheres',
+      en: 'cultery',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
   },
 ];
 

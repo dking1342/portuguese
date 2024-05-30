@@ -12,6 +12,8 @@ import {
   MdOutlineFormatListNumbered,
   MdColorLens,
   MdOutlineWorkOutline,
+  MdOutlineSchool,
+  MdAbc,
 } from 'react-icons/md';
 import { FaDog, FaTree } from 'react-icons/fa';
 import { TiWeatherPartlySunny } from 'react-icons/ti';
@@ -130,6 +132,16 @@ const vocabList: vocabItem[] = [
     id: uuidv4(),
     name: Topics.Jobs,
     image: <MdOutlineWorkOutline />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.School,
+    image: <MdOutlineSchool />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.Grammar,
+    image: <MdAbc />,
   },
 ];
 
