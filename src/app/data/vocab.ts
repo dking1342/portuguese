@@ -1,7 +1,6 @@
 import { v4 as uuidv4 } from 'uuid';
 import { Topics, Gender } from '../constants';
 import { vocab } from '../types';
-import { generateKey } from 'crypto';
 
 const vocabulary: vocab[] = [
   {
@@ -9778,6 +9777,24 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.House,
     gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'ruim, mal',
+      en: 'bad',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'bom, boa',
+      en: 'good',
+    },
+    topic: Topics.Adjectives,
+    gender: Gender.Neutral,
   },
 ];
 
