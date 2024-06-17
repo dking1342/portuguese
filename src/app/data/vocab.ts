@@ -1,6 +1,7 @@
 import { v4 as uuidv4 } from 'uuid';
 import { Topics, Gender } from '../constants';
 import { vocab } from '../types';
+import { TiPiOutline } from 'react-icons/ti';
 
 const vocabulary: vocab[] = [
   {
@@ -644,7 +645,7 @@ const vocabulary: vocab[] = [
     id: uuidv4(),
     word: {
       pt: 'forma',
-      en: 'form',
+      en: 'form, shape',
     },
     topic: Topics.Noun,
     gender: Gender.Female,
@@ -9795,6 +9796,228 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Adjectives,
     gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pacote',
+      en: 'package',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'voo',
+      en: 'flight',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'voar',
+      en: 'to fly',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'portão',
+      en: 'gate',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'avião',
+      en: 'airplane',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'piloto',
+      en: 'pilot',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'aeroporto',
+      en: 'airport',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'redondo',
+      en: 'circle',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'quadrado',
+      en: 'square',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'triâgulo',
+      en: 'triangle',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'carinho',
+      en: 'care',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'crédito',
+      en: 'credit',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pagamento',
+      en: 'payment',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'traduzir',
+      en: 'to translate',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'tradutor',
+      en: 'translator',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'joia',
+      en: 'jewerly',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'colar',
+      en: 'necklace',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'brinco',
+      en: 'earring',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'enchente',
+      en: 'flood',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'alagamento',
+      en: 'flooding',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'feriado',
+      en: 'holiday (official)',
+    },
+    topic: Topics.Calendar,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'fita',
+      en: 'tape (adhesive)',
+    },
+    topic: Topics.Noun,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'grosseira',
+      en: 'coarse, rude',
+    },
+    topic: Topics.Body,
+    gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'julgar',
+      en: 'to judge',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'misericórdia',
+      en: 'mercy',
+    },
+    topic: Topics.Body,
+    gender: Gender.Female,
   },
 ];
 
