@@ -4884,7 +4884,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'tocar',
+      pt: 'tocar, encostar',
       en: 'to touch',
     },
     topic: Topics.Verbs,
@@ -4924,7 +4924,7 @@ const vocabulary: vocab[] = [
   {
     id: uuidv4(),
     word: {
-      pt: 'ver',
+      pt: 'ver, enxergar',
       en: 'to see',
     },
     topic: Topics.Verbs,
@@ -10018,6 +10018,107 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.Body,
     gender: Gender.Female,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'bolso',
+      en: 'pocket',
+    },
+    topic: Topics.Clothes,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'coelho',
+      en: 'rabbit',
+    },
+    topic: Topics.Animals,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cueca',
+      en: 'underwear',
+    },
+    topic: Topics.Clothes,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'chutar',
+      en: 'to kick',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'latir',
+      en: 'to bark',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'jogar',
+      en: 'to play, to throw',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'roncar',
+      en: 'to snore',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'ronronar',
+      en: 'to purr',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'gravar',
+      en: 'to record',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'economizar',
+      en: 'to save',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'fazendeiro',
+      en: 'farmer',
+    },
+    topic: Topics.Jobs,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'boneca',
+      en: 'doll',
+    },
+    topic: Topics.House,
+    gender: Gender.Male,
   },
 ];
 
