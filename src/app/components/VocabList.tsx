@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from '../styles/VocabList.module.sass';
 import { SlSpeech } from 'react-icons/sl';
-import { BiSolidTShirt, BiBody } from 'react-icons/bi';
+import { BiSolidTShirt, BiBody, BiWorld } from 'react-icons/bi';
 import {
   MdFamilyRestroom,
   MdLocationPin,
@@ -14,9 +14,21 @@ import {
   MdOutlineWorkOutline,
   MdOutlineSchool,
   MdAbc,
+  MdOutlineSportsBasketball,
+  MdOutlineBusiness,
+  MdEmojiPeople,
 } from 'react-icons/md';
-import { FaDog, FaTree } from 'react-icons/fa';
+import {
+  FaDog,
+  FaTree,
+  FaBookOpen,
+  FaCar,
+  FaCross,
+  FaNetworkWired,
+  FaShapes,
+} from 'react-icons/fa';
 import { TiWeatherPartlySunny } from 'react-icons/ti';
+import { GiInjustice } from 'react-icons/gi';
 import VocabItem from './VocabItem';
 import { vocabItem } from '../types';
 import { Topics } from '../constants';
@@ -143,12 +155,64 @@ const vocabList: vocabItem[] = [
     name: Topics.Grammar,
     image: <MdAbc />,
   },
+  {
+    id: uuidv4(),
+    name: Topics.Shapes,
+    image: <FaShapes />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.Sports,
+    image: <MdOutlineSportsBasketball />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.Literature,
+    image: <FaBookOpen />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.Earth,
+    image: <BiWorld />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.Vehicles,
+    image: <FaCar />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.Business,
+    image: <MdOutlineBusiness />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.Faith,
+    image: <FaCross />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.People,
+    image: <MdEmojiPeople />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.Justice,
+    image: <GiInjustice />,
+  },
+  {
+    id: uuidv4(),
+    name: Topics.Technology,
+    image: <FaNetworkWired />,
+  },
 ];
 
 const VocabList = () => {
+  let alphaList = vocabList.sort((a, b) => a.name.localeCompare(b.name));
+
   return (
     <div className={styles.container}>
-      {vocabList.map((item) => (
+      {alphaList.map((item) => (
         <VocabItem item={item} />
       ))}
     </div>

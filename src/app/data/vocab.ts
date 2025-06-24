@@ -440,7 +440,7 @@ const vocabulary: vocab[] = [
       pt: 'caneta',
       en: 'pen',
     },
-    topic: Topics.Noun,
+    topic: Topics.Literature,
     gender: Gender.Female,
   },
   {
@@ -449,7 +449,7 @@ const vocabulary: vocab[] = [
       pt: 'papel',
       en: 'paper',
     },
-    topic: Topics.Noun,
+    topic: Topics.Literature,
     gender: Gender.Male,
   },
   {
@@ -593,7 +593,7 @@ const vocabulary: vocab[] = [
       pt: 'Deus',
       en: 'God',
     },
-    topic: Topics.Noun,
+    topic: Topics.Faith,
     gender: Gender.Male,
   },
   {
@@ -602,7 +602,7 @@ const vocabulary: vocab[] = [
       pt: 'dinheiro',
       en: 'money',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -647,7 +647,7 @@ const vocabulary: vocab[] = [
       pt: 'forma',
       en: 'form, shape',
     },
-    topic: Topics.Noun,
+    topic: Topics.Shapes,
     gender: Gender.Female,
   },
   {
@@ -656,7 +656,7 @@ const vocabulary: vocab[] = [
       pt: 'grupo',
       en: 'group',
     },
-    topic: Topics.Noun,
+    topic: Topics.People,
     gender: Gender.Male,
   },
   {
@@ -692,7 +692,7 @@ const vocabulary: vocab[] = [
       pt: 'lei',
       en: 'law',
     },
-    topic: Topics.Noun,
+    topic: Topics.Justice,
     gender: Gender.Male,
   },
   {
@@ -719,7 +719,7 @@ const vocabulary: vocab[] = [
       pt: 'nome',
       en: 'name',
     },
-    topic: Topics.Noun,
+    topic: Topics.People,
     gender: Gender.Female,
   },
   {
@@ -746,7 +746,7 @@ const vocabulary: vocab[] = [
       pt: 'preço',
       en: 'price',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -764,7 +764,7 @@ const vocabulary: vocab[] = [
       pt: 'santo',
       en: 'holy',
     },
-    topic: Topics.Noun,
+    topic: Topics.Faith,
     gender: Gender.Male,
   },
   {
@@ -1223,7 +1223,7 @@ const vocabulary: vocab[] = [
       pt: 'cima',
       en: 'top',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Places,
     gender: Gender.Female,
   },
   {
@@ -1232,7 +1232,7 @@ const vocabulary: vocab[] = [
       pt: 'frente',
       en: 'front',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Places,
     gender: Gender.Female,
   },
   {
@@ -1241,7 +1241,7 @@ const vocabulary: vocab[] = [
       pt: 'baixo',
       en: 'bottom',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Places,
     gender: Gender.Male,
   },
   {
@@ -1899,7 +1899,7 @@ const vocabulary: vocab[] = [
       pt: 'flor',
       en: 'flower',
     },
-    topic: Topics.Noun,
+    topic: Topics.Plants,
     gender: Gender.Male,
   },
   {
@@ -2600,7 +2600,7 @@ const vocabulary: vocab[] = [
       pt: 'morro',
       en: 'hill',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -3279,7 +3279,7 @@ const vocabulary: vocab[] = [
       pt: 'dados',
       en: 'data',
     },
-    topic: Topics.Noun,
+    topic: Topics.Numbers,
     gender: Gender.Male,
   },
   {
@@ -3412,7 +3412,7 @@ const vocabulary: vocab[] = [
       pt: 'bola',
       en: 'ball',
     },
-    topic: Topics.Noun,
+    topic: Topics.Sports,
     gender: Gender.Female,
   },
   {
@@ -3421,7 +3421,7 @@ const vocabulary: vocab[] = [
       pt: 'jogo',
       en: 'game',
     },
-    topic: Topics.Noun,
+    topic: Topics.Sports,
     gender: Gender.Male,
   },
   {
@@ -3626,7 +3626,7 @@ const vocabulary: vocab[] = [
       pt: 'lago',
       en: 'lake',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -4351,7 +4351,7 @@ const vocabulary: vocab[] = [
       pt: 'rio',
       en: 'river',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -4378,7 +4378,7 @@ const vocabulary: vocab[] = [
       pt: 'terra',
       en: 'earth',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Female,
   },
   {
@@ -4396,7 +4396,7 @@ const vocabulary: vocab[] = [
       pt: 'campo',
       en: 'field',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -4405,7 +4405,7 @@ const vocabulary: vocab[] = [
       pt: 'empresa',
       en: 'company',
     },
-    topic: Topics.Places,
+    topic: Topics.Business,
     gender: Gender.Female,
   },
   {
@@ -4423,7 +4423,7 @@ const vocabulary: vocab[] = [
       pt: 'mundo',
       en: 'world',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -5218,7 +5218,7 @@ const vocabulary: vocab[] = [
       pt: 'exercício',
       en: 'exercise',
     },
-    topic: Topics.Noun,
+    topic: Topics.Sports,
     gender: Gender.Male,
   },
   {
@@ -5245,7 +5245,7 @@ const vocabulary: vocab[] = [
       pt: 'criadora',
       en: 'creator',
     },
-    topic: Topics.Noun,
+    topic: Topics.People,
     gender: Gender.Male,
   },
   {
@@ -5626,7 +5626,7 @@ const vocabulary: vocab[] = [
       pt: 'versículo',
       en: 'verse',
     },
-    topic: Topics.Noun,
+    topic: Topics.Literature,
     gender: Gender.Male,
   },
   {
@@ -5635,7 +5635,7 @@ const vocabulary: vocab[] = [
       pt: 'capítulo',
       en: 'chapter',
     },
-    topic: Topics.Noun,
+    topic: Topics.Literature,
     gender: Gender.Male,
   },
   {
@@ -5886,7 +5886,7 @@ const vocabulary: vocab[] = [
       pt: 'regra',
       en: 'rule',
     },
-    topic: Topics.Noun,
+    topic: Topics.Justice,
     gender: Gender.Female,
   },
   {
@@ -5940,7 +5940,7 @@ const vocabulary: vocab[] = [
       pt: 'culpa',
       en: 'fault, guilt',
     },
-    topic: Topics.Noun,
+    topic: Topics.Justice,
     gender: Gender.Female,
   },
   {
@@ -5975,7 +5975,7 @@ const vocabulary: vocab[] = [
       pt: 'barato',
       en: 'cheap',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -5984,7 +5984,7 @@ const vocabulary: vocab[] = [
       pt: 'caro',
       en: 'expensive',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -6037,7 +6037,7 @@ const vocabulary: vocab[] = [
       pt: 'caixa',
       en: 'box, cash register',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Female,
   },
   {
@@ -6054,7 +6054,7 @@ const vocabulary: vocab[] = [
       pt: 'rede social',
       en: 'social network',
     },
-    topic: Topics.Noun,
+    topic: Topics.Technology,
     gender: Gender.Neutral,
   },
   {
@@ -6063,7 +6063,7 @@ const vocabulary: vocab[] = [
       pt: 'rede',
       en: 'network',
     },
-    topic: Topics.Noun,
+    topic: Topics.Technology,
     gender: Gender.Male,
   },
   {
@@ -6142,7 +6142,7 @@ const vocabulary: vocab[] = [
       pt: 'máquina',
       en: 'machine',
     },
-    topic: Topics.Noun,
+    topic: Topics.Technology,
     gender: Gender.Female,
   },
   {
@@ -6213,7 +6213,7 @@ const vocabulary: vocab[] = [
       pt: 'tarefa',
       en: 'task',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Female,
   },
   {
@@ -6231,7 +6231,7 @@ const vocabulary: vocab[] = [
       pt: 'equipe, time',
       en: 'team',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -6258,7 +6258,7 @@ const vocabulary: vocab[] = [
       pt: 'habilidade',
       en: 'skills, ability',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Female,
   },
   {
@@ -6429,7 +6429,7 @@ const vocabulary: vocab[] = [
       pt: 'noiva',
       en: 'bride',
     },
-    topic: Topics.Noun,
+    topic: Topics.Family,
     gender: Gender.Female,
   },
   {
@@ -6438,7 +6438,7 @@ const vocabulary: vocab[] = [
       pt: 'noivo',
       en: 'groom',
     },
-    topic: Topics.Noun,
+    topic: Topics.Family,
     gender: Gender.Male,
   },
   {
@@ -6472,7 +6472,7 @@ const vocabulary: vocab[] = [
       pt: 'sobrenome',
       en: 'last name',
     },
-    topic: Topics.Noun,
+    topic: Topics.People,
     gender: Gender.Neutral,
   },
   {
@@ -6516,7 +6516,7 @@ const vocabulary: vocab[] = [
       pt: 'processo',
       en: 'process',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -6525,7 +6525,7 @@ const vocabulary: vocab[] = [
       pt: 'serviço',
       en: 'service',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -6534,7 +6534,7 @@ const vocabulary: vocab[] = [
       pt: 'reunião, encontro',
       en: 'meeting',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Female,
   },
   {
@@ -6552,16 +6552,16 @@ const vocabulary: vocab[] = [
       pt: 'acordo',
       en: 'agreement',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
     id: uuidv4(),
     word: {
       pt: 'conta',
-      en: 'account',
+      en: 'account, bill',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -6597,7 +6597,7 @@ const vocabulary: vocab[] = [
       pt: 'espaço',
       en: 'space',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -6624,7 +6624,7 @@ const vocabulary: vocab[] = [
       pt: 'maioria',
       en: 'majority',
     },
-    topic: Topics.Noun,
+    topic: Topics.Adjectives,
     gender: Gender.Female,
   },
   {
@@ -6669,7 +6669,7 @@ const vocabulary: vocab[] = [
       pt: 'mar',
       en: 'sea',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -6678,7 +6678,7 @@ const vocabulary: vocab[] = [
       pt: 'assunto, tema',
       en: 'theme, topic',
     },
-    topic: Topics.Noun,
+    topic: Topics.Literature,
     gender: Gender.Male,
   },
   {
@@ -6714,7 +6714,7 @@ const vocabulary: vocab[] = [
       pt: 'ilha',
       en: 'island',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Female,
   },
   {
@@ -6732,7 +6732,7 @@ const vocabulary: vocab[] = [
       pt: 'venda',
       en: 'sale',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Female,
   },
   {
@@ -6741,7 +6741,7 @@ const vocabulary: vocab[] = [
       pt: 'pesquisa',
       en: 'search, research',
     },
-    topic: Topics.Noun,
+    topic: Topics.Technology,
     gender: Gender.Female,
   },
   {
@@ -6759,7 +6759,7 @@ const vocabulary: vocab[] = [
       pt: 'natureza',
       en: 'nature',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Female,
   },
   {
@@ -6768,7 +6768,7 @@ const vocabulary: vocab[] = [
       pt: 'companhia',
       en: 'company, companionship',
     },
-    topic: Topics.Noun,
+    topic: Topics.People,
     gender: Gender.Female,
   },
   {
@@ -6812,7 +6812,7 @@ const vocabulary: vocab[] = [
       pt: 'estrangeiro',
       en: 'foreigner',
     },
-    topic: Topics.Noun,
+    topic: Topics.People,
     gender: Gender.Male,
   },
   {
@@ -6830,7 +6830,7 @@ const vocabulary: vocab[] = [
       pt: 'ambiente',
       en: 'environment',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -6848,7 +6848,7 @@ const vocabulary: vocab[] = [
       pt: 'imposto',
       en: 'tax',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -6866,7 +6866,7 @@ const vocabulary: vocab[] = [
       pt: 'artigo',
       en: 'article',
     },
-    topic: Topics.Noun,
+    topic: Topics.Grammar,
     gender: Gender.Male,
   },
   {
@@ -6929,7 +6929,7 @@ const vocabulary: vocab[] = [
       pt: 'custo',
       en: 'cost',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -6947,7 +6947,7 @@ const vocabulary: vocab[] = [
       pt: 'crescimento',
       en: 'growth',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -6956,7 +6956,7 @@ const vocabulary: vocab[] = [
       pt: 'estilo',
       en: 'style',
     },
-    topic: Topics.Noun,
+    topic: Topics.Clothes,
     gender: Gender.Male,
   },
   {
@@ -6965,7 +6965,7 @@ const vocabulary: vocab[] = [
       pt: 'estrela',
       en: 'star',
     },
-    topic: Topics.Noun,
+    topic: Topics.Shapes,
     gender: Gender.Female,
   },
   {
@@ -7019,7 +7019,7 @@ const vocabulary: vocab[] = [
       pt: 'ouro',
       en: 'gold',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -7028,7 +7028,7 @@ const vocabulary: vocab[] = [
       pt: 'onda',
       en: 'wave',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Female,
   },
   {
@@ -7082,7 +7082,7 @@ const vocabulary: vocab[] = [
       pt: 'fogo',
       en: 'fire',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -7163,7 +7163,7 @@ const vocabulary: vocab[] = [
       pt: 'saída',
       en: 'exit',
     },
-    topic: Topics.Noun,
+    topic: Topics.Places,
     gender: Gender.Female,
   },
   {
@@ -7190,7 +7190,7 @@ const vocabulary: vocab[] = [
       pt: 'praia',
       en: 'beach',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Female,
   },
   {
@@ -7199,7 +7199,7 @@ const vocabulary: vocab[] = [
       pt: 'cruz',
       en: 'cross',
     },
-    topic: Topics.Noun,
+    topic: Topics.Faith,
     gender: Gender.Male,
   },
   {
@@ -7208,7 +7208,7 @@ const vocabulary: vocab[] = [
       pt: 'bolsa',
       en: 'handbag, purse',
     },
-    topic: Topics.Noun,
+    topic: Topics.Clothes,
     gender: Gender.Female,
   },
   {
@@ -7235,7 +7235,7 @@ const vocabulary: vocab[] = [
       pt: 'telefone, cellular',
       en: 'telephone',
     },
-    topic: Topics.Noun,
+    topic: Topics.Technology,
     gender: Gender.Male,
   },
   {
@@ -7367,7 +7367,7 @@ const vocabulary: vocab[] = [
       pt: 'mensagem',
       en: 'message',
     },
-    topic: Topics.Noun,
+    topic: Topics.Literature,
     gender: Gender.Female,
   },
   {
@@ -7394,7 +7394,7 @@ const vocabulary: vocab[] = [
       pt: 'montanha',
       en: 'mountain',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Female,
   },
   {
@@ -7412,7 +7412,7 @@ const vocabulary: vocab[] = [
       pt: 'pedido',
       en: 'order',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -7421,7 +7421,7 @@ const vocabulary: vocab[] = [
       pt: 'fé',
       en: 'faith',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Faith,
     gender: Gender.Neutral,
   },
   {
@@ -7652,7 +7652,7 @@ const vocabulary: vocab[] = [
       pt: 'forte',
       en: 'strong',
     },
-    topic: Topics.Noun,
+    topic: Topics.Adjectives,
     gender: Gender.Male,
   },
   {
@@ -7792,7 +7792,7 @@ const vocabulary: vocab[] = [
       pt: 'prata',
       en: 'silver',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Female,
   },
   {
@@ -7801,7 +7801,7 @@ const vocabulary: vocab[] = [
       pt: 'barco, navio',
       en: 'boat',
     },
-    topic: Topics.Noun,
+    topic: Topics.Vehicles,
     gender: Gender.Male,
   },
   {
@@ -7863,7 +7863,7 @@ const vocabulary: vocab[] = [
       pt: 'convidado',
       en: 'guest',
     },
-    topic: Topics.Noun,
+    topic: Topics.People,
     gender: Gender.Male,
   },
   {
@@ -8048,7 +8048,7 @@ const vocabulary: vocab[] = [
       pt: 'estrutura',
       en: 'structure',
     },
-    topic: Topics.Noun,
+    topic: Topics.House,
     gender: Gender.Female,
   },
   {
@@ -8066,7 +8066,7 @@ const vocabulary: vocab[] = [
       pt: 'andar',
       en: 'floor (building)',
     },
-    topic: Topics.Noun,
+    topic: Topics.House,
     gender: Gender.Male,
   },
   {
@@ -8176,7 +8176,7 @@ const vocabulary: vocab[] = [
       pt: 'predileto favorito',
       en: 'favorite',
     },
-    topic: Topics.Noun,
+    topic: Topics.Adjectives,
   },
   {
     id: uuidv4(),
@@ -8184,7 +8184,7 @@ const vocabulary: vocab[] = [
       pt: 'linha',
       en: 'line',
     },
-    topic: Topics.Noun,
+    topic: Topics.Shapes,
     gender: Gender.Female,
   },
   {
@@ -8260,7 +8260,7 @@ const vocabulary: vocab[] = [
       pt: 'carregador',
       en: 'charger',
     },
-    topic: Topics.Noun,
+    topic: Topics.Technology,
     gender: Gender.Male,
   },
   {
@@ -8310,7 +8310,7 @@ const vocabulary: vocab[] = [
       pt: 'veículo',
       en: 'vehicle',
     },
-    topic: Topics.Noun,
+    topic: Topics.Vehicles,
     gender: Gender.Male,
   },
   {
@@ -8319,7 +8319,7 @@ const vocabulary: vocab[] = [
       pt: 'público',
       en: 'public',
     },
-    topic: Topics.Noun,
+    topic: Topics.Adjectives,
     gender: Gender.Male,
   },
   {
@@ -8328,7 +8328,7 @@ const vocabulary: vocab[] = [
       pt: 'privado',
       en: 'private',
     },
-    topic: Topics.Noun,
+    topic: Topics.Adjectives,
     gender: Gender.Male,
   },
   {
@@ -8389,7 +8389,7 @@ const vocabulary: vocab[] = [
       pt: 'cliente',
       en: 'customer',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -8406,7 +8406,7 @@ const vocabulary: vocab[] = [
       pt: 'projeto',
       en: 'project',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -8415,7 +8415,7 @@ const vocabulary: vocab[] = [
       pt: 'ações',
       en: 'stocks (trading)',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Female,
   },
   {
@@ -8469,7 +8469,7 @@ const vocabulary: vocab[] = [
       pt: 'recurso',
       en: 'resource',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -8521,7 +8521,7 @@ const vocabulary: vocab[] = [
       pt: 'notícias, novidade',
       en: 'news',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Neutral,
   },
   {
@@ -8555,7 +8555,7 @@ const vocabulary: vocab[] = [
       pt: 'objectivo',
       en: 'objective',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -8564,7 +8564,7 @@ const vocabulary: vocab[] = [
       pt: 'utilizador, usuário',
       en: 'user',
     },
-    topic: Topics.Noun,
+    topic: Topics.Technology,
     gender: Gender.Neutral,
   },
   {
@@ -8581,7 +8581,7 @@ const vocabulary: vocab[] = [
       pt: 'financeiro',
       en: 'financial',
     },
-    topic: Topics.Adjectives,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -8590,7 +8590,7 @@ const vocabulary: vocab[] = [
       pt: 'prazo',
       en: 'deadline',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -8599,7 +8599,7 @@ const vocabulary: vocab[] = [
       pt: 'equipamento',
       en: 'equipment',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -8625,7 +8625,7 @@ const vocabulary: vocab[] = [
       pt: 'marca',
       en: 'brand, mark',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Female,
   },
   {
@@ -8634,7 +8634,7 @@ const vocabulary: vocab[] = [
       pt: 'investimento',
       en: 'investment',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -8651,7 +8651,7 @@ const vocabulary: vocab[] = [
       pt: 'economia',
       en: 'economy',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Female,
   },
   {
@@ -8685,7 +8685,7 @@ const vocabulary: vocab[] = [
       pt: 'clube',
       en: 'club',
     },
-    topic: Topics.Noun,
+    topic: Topics.Places,
     gender: Gender.Male,
   },
   {
@@ -8694,7 +8694,7 @@ const vocabulary: vocab[] = [
       pt: 'conteúdo',
       en: 'content',
     },
-    topic: Topics.Noun,
+    topic: Topics.Literature,
     gender: Gender.Male,
   },
   {
@@ -8738,7 +8738,7 @@ const vocabulary: vocab[] = [
       pt: 'energia',
       en: 'energy',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Female,
   },
   {
@@ -8755,7 +8755,7 @@ const vocabulary: vocab[] = [
       pt: 'página',
       en: 'page',
     },
-    topic: Topics.Noun,
+    topic: Topics.Literature,
     gender: Gender.Female,
   },
   {
@@ -8781,7 +8781,7 @@ const vocabulary: vocab[] = [
       pt: 'caminho',
       en: 'way, path',
     },
-    topic: Topics.Noun,
+    topic: Topics.Places,
     gender: Gender.Male,
   },
   {
@@ -8848,7 +8848,7 @@ const vocabulary: vocab[] = [
       pt: 'oferta',
       en: 'offer',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Female,
   },
   {
@@ -8884,7 +8884,7 @@ const vocabulary: vocab[] = [
       pt: 'parceria',
       en: 'partnership',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Female,
   },
   {
@@ -8928,7 +8928,7 @@ const vocabulary: vocab[] = [
       pt: 'parceiro',
       en: 'partner',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -8955,7 +8955,7 @@ const vocabulary: vocab[] = [
       pt: 'ferramenta',
       en: 'tool',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Female,
   },
   {
@@ -8964,7 +8964,7 @@ const vocabulary: vocab[] = [
       pt: 'mundial',
       en: 'worldwide',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -9111,7 +9111,7 @@ const vocabulary: vocab[] = [
       pt: 'lagoa',
       en: 'lagoon',
     },
-    topic: Topics.Places,
+    topic: Topics.Earth,
     gender: Gender.Female,
   },
   {
@@ -9128,7 +9128,7 @@ const vocabulary: vocab[] = [
       pt: 'plantão',
       en: 'duty',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Female,
   },
   {
@@ -9803,7 +9803,7 @@ const vocabulary: vocab[] = [
       pt: 'pacote',
       en: 'package',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -9838,7 +9838,7 @@ const vocabulary: vocab[] = [
       pt: 'avião',
       en: 'airplane',
     },
-    topic: Topics.Noun,
+    topic: Topics.Vehicles,
     gender: Gender.Female,
   },
   {
@@ -9847,7 +9847,7 @@ const vocabulary: vocab[] = [
       pt: 'piloto',
       en: 'pilot',
     },
-    topic: Topics.Noun,
+    topic: Topics.Jobs,
     gender: Gender.Male,
   },
   {
@@ -9856,7 +9856,7 @@ const vocabulary: vocab[] = [
       pt: 'aeroporto',
       en: 'airport',
     },
-    topic: Topics.Noun,
+    topic: Topics.Places,
     gender: Gender.Male,
   },
   {
@@ -9865,7 +9865,7 @@ const vocabulary: vocab[] = [
       pt: 'redondo',
       en: 'circle',
     },
-    topic: Topics.Noun,
+    topic: Topics.Shapes,
     gender: Gender.Male,
   },
   {
@@ -9874,7 +9874,7 @@ const vocabulary: vocab[] = [
       pt: 'quadrado',
       en: 'square',
     },
-    topic: Topics.Noun,
+    topic: Topics.Shapes,
     gender: Gender.Male,
   },
   {
@@ -9883,7 +9883,7 @@ const vocabulary: vocab[] = [
       pt: 'triâgulo',
       en: 'triangle',
     },
-    topic: Topics.Noun,
+    topic: Topics.Shapes,
     gender: Gender.Male,
   },
   {
@@ -9901,7 +9901,7 @@ const vocabulary: vocab[] = [
       pt: 'crédito',
       en: 'credit',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -9910,7 +9910,7 @@ const vocabulary: vocab[] = [
       pt: 'pagamento',
       en: 'payment',
     },
-    topic: Topics.Noun,
+    topic: Topics.Business,
     gender: Gender.Male,
   },
   {
@@ -9927,7 +9927,7 @@ const vocabulary: vocab[] = [
       pt: 'tradutor',
       en: 'translator',
     },
-    topic: Topics.Noun,
+    topic: Topics.Literature,
     gender: Gender.Male,
   },
   {
@@ -9936,7 +9936,7 @@ const vocabulary: vocab[] = [
       pt: 'joia',
       en: 'jewerly',
     },
-    topic: Topics.Noun,
+    topic: Topics.Clothes,
     gender: Gender.Male,
   },
   {
@@ -9945,7 +9945,7 @@ const vocabulary: vocab[] = [
       pt: 'colar',
       en: 'necklace',
     },
-    topic: Topics.Noun,
+    topic: Topics.Clothes,
     gender: Gender.Male,
   },
   {
@@ -9954,7 +9954,7 @@ const vocabulary: vocab[] = [
       pt: 'brinco',
       en: 'earring',
     },
-    topic: Topics.Noun,
+    topic: Topics.Clothes,
     gender: Gender.Male,
   },
   {
@@ -9963,7 +9963,7 @@ const vocabulary: vocab[] = [
       pt: 'enchente',
       en: 'flood',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -9972,7 +9972,7 @@ const vocabulary: vocab[] = [
       pt: 'alagamento',
       en: 'flooding',
     },
-    topic: Topics.Noun,
+    topic: Topics.Earth,
     gender: Gender.Male,
   },
   {
@@ -10119,6 +10119,123 @@ const vocabulary: vocab[] = [
     },
     topic: Topics.House,
     gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'arrotar',
+      en: 'to burp',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'triângulo',
+      en: 'triangle',
+    },
+    topic: Topics.Shapes,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'pedra rocha',
+      en: 'rock, stone',
+    },
+    topic: Topics.Earth,
+    gender: Gender.Neutral,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'rin',
+      en: 'kidney',
+    },
+    topic: Topics.Body,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'diminuir',
+      en: 'to decrease',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'lucro',
+      en: 'profit',
+    },
+    topic: Topics.Business,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'mimar',
+      en: 'to spoil(person)',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'estragar',
+      en: 'to spoil (object)',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'cargo',
+      en: 'position',
+    },
+    topic: Topics.Jobs,
+    gender: Gender.Male,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'você está formada',
+      en: 'did you graduate?',
+    },
+    topic: Topics.Expressions,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'CLT',
+      en: 'worker',
+    },
+    topic: Topics.Jobs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'PJ',
+      en: 'business owner',
+    },
+    topic: Topics.Jobs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'respirar',
+      en: 'to breath',
+    },
+    topic: Topics.Verbs,
+  },
+  {
+    id: uuidv4(),
+    word: {
+      pt: 'tipo assim',
+      en: 'for example',
+    },
+    topic: Topics.Expressions,
   },
 ];
 

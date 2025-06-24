@@ -23,6 +23,16 @@ export enum Topics {
   Jobs = 'jobs',
   School = 'school',
   Grammar = 'grammar',
+  Shapes = 'shapes',
+  Sports = 'sports',
+  Literature = 'literature',
+  Earth = 'earth',
+  Vehicles = 'vehicles',
+  Business = 'business',
+  Faith = 'faith',
+  People = 'people',
+  Justice = 'justice',
+  Technology = 'technology',
 }
 
 export enum Gender {

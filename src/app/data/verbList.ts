@@ -812,7 +812,7 @@ export const verbL: verbItemArray[] = [
         group: {
           firstSingle: 'darei',
           secondSingle: 'darás',
-          thirdSingle: 'darás',
+          thirdSingle: 'dará',
           firstPlural: 'daremos',
           thirdPlural: 'darão',
         },
